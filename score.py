@@ -23,6 +23,7 @@ from gym import Env, spaces
 #     return False
 
 # loading bass score "Time of Our Life"
+# validity checked
 def generate_score():
     f = open("./score.txt", 'r')
     line = f.readline()
@@ -153,7 +154,7 @@ class ScoreEnv(Env):
         
         # compute reward
         curr_hand_state = [fret_state, finger_state, string_state]
-        r = self.compute_reward(self.last_hand_state, curr_hand_state)
+        r = self.compute_reward(curr_hand_state)
 
         # one-hot state transition
         fret_state = np.array(self.one_hot_encoding(fret_state, 21))

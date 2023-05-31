@@ -1,4 +1,5 @@
 from score import ScoreEnv
+from collections import deque
 import random
 import torch
 from torch.nn import Module, Linear
@@ -56,7 +57,7 @@ def update_Q():
 
 def epsilonGreedy(epsilon):
 
-    assert epsilon in range(0, 1), "invalid epsilon value"
+    assert epsilon >= 0 and epsilon <= 1, "invalid epsilon value"
 
     if random.random() < epsilon :
         return random.randint(0, 19)
@@ -96,6 +97,7 @@ target_interval = 100
 target_counter = 0
 
 episodes = 2000
+max_iter = env.episode_length
 
 # train
 for episode in range(episodes):
@@ -106,19 +108,19 @@ for episode in range(episodes):
     observation, _ = env.reset()
     state = torch.tensor(observation, dtype=torch.float32)
 
-    while True:
+    while env.t <= max_iter:
         # choose action with epsilon greedy policy
         action = epsilonGreedy(epsilon=0.01)
 
         # get next observation and current reward for the chosen action
-        observation_next, reward, done, info = env.step(action)
+        observation_next, reward, done, _ = env.step(action)
         state_next = torch.tensor(observation_next, dtype=torch.float32)
 
         # Compute G_0
         G = G + (discount ** (env.t - 1)) * reward
 
         # Store transition into the replay memory
-        replay_memory.append([state, action, state_next, reward, terminated, truncated])
+        replay_memory.append([state, action, state_next, reward, done])
 
         update_Q()
 
@@ -130,16 +132,16 @@ for episode in range(episodes):
         if done:
             break
 
-            # pass observation to the next step
-            observation = observation_next
-            state = state_next
+        # pass observation to the next step
+        observation = observation_next
+        state = state_next
 
         # compute average reward
-        reward_history_100.append(G)
-        reward_history.append(G)
-        avg = sum(reward_history_100) / len(reward_history_100)
-        if episode % 10 == 0:
-            print('episode: {}, reward: {:.1f}, avg: {:.1f}'.format(episode, G, avg))
+    reward_history_100.append(G)
+    reward_history.append(G)
+    avg = sum(reward_history_100) / len(reward_history_100)
+    if episode % 10 == 0:
+        print('episode: {}, reward: {:.1f}, avg: {:.1f}'.format(episode, G, avg))
 
 # plot objective
 t = range(episodes)
