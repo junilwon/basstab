@@ -29,6 +29,7 @@ def generate_score():
     line = f.readline()
     line = line.replace(",", "").replace(" ", "")
     score = list(map(int, line))
+    score.append(0)
     return score
 
 class ScoreEnv(Env):
@@ -125,7 +126,7 @@ class ScoreEnv(Env):
         one_hot_vector = []
         
         for i in range(upper_bound):
-            one_hot_vector.append(i == value)
+            one_hot_vector.append(int(i == value))
         
         # if invalid input such as value < 0 is entered, will return zero vector
 
@@ -156,23 +157,27 @@ class ScoreEnv(Env):
         curr_hand_state = [fret_state, finger_state, string_state]
         r = self.compute_reward(curr_hand_state)
 
-        # one-hot state transition
-        fret_state = np.array(self.one_hot_encoding(fret_state, 21))
-        finger_state = np.array(self.one_hot_encoding(finger_state, 5))
-        string_state = np.array(self.one_hot_encoding(string_state, 4))
-        curr_melody_state = np.array(self.one_hot_encoding(curr_melody_state, 36))
-        
-        self.s = np.hstack((fret_state, finger_state, string_state, curr_melody_state))
-        
         # time step
         self.t += 1
         self.last_hand_state = curr_hand_state
 
-        return self.s, r, self.t == self.episode_length, {}
+        # next melody update
+        next_melody_state = self.score[self.t]
+
+        # one-hot state transition
+        fret_state = np.array(self.one_hot_encoding(fret_state, 21))
+        finger_state = np.array(self.one_hot_encoding(finger_state, 5))
+        string_state = np.array(self.one_hot_encoding(string_state, 4))
+        next_melody_state = np.array(self.one_hot_encoding(next_melody_state, 36))
+        
+        self.s = np.hstack((fret_state, finger_state, string_state, next_melody_state))
+
+        return self.s, r, self.t == self.episode_length - 1, {}
 
     def reset(self):
         self.t = 0
         self.s = np.zeros(21 + 5 + 4 + 36)
+        self.s[-36:] = self.one_hot_encoding(self.score[0], 36)
         self.last_hand_state = None
 
         return self.s, {}

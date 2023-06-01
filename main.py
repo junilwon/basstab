@@ -13,9 +13,10 @@ import csv
 class QNetwork(Module):
     def __init__(self):
         super().__init__()
-        self.fc = Linear(66, 256)
-        self.fcQ1 = Linear(256, 128)
-        self.fcQ2 = Linear(128, 20)
+        self.fc = Linear(66, 128)
+        self.fcQ1 = Linear(128, 256)
+        self.fcQ2 = Linear(256, 256)
+        self.fcQ3 = Linear(256, 20)
 
     def forward(self, x):
         x = self.fc(x)
@@ -23,6 +24,8 @@ class QNetwork(Module):
         x = self.fcQ1(x)
         x = F.relu(x)
         x = self.fcQ2(x)
+        x = F.relu(x)
+        x = self.fcQ3(x)
 
         return x
 
@@ -98,8 +101,9 @@ target_counter = 0
 
 episodes = 2000
 max_iter = env.episode_length
+total_sample = 0
 
-# train
+# train : DQN
 for episode in range(episodes):
     # sum of accumulated rewards
     G = 0
@@ -110,11 +114,12 @@ for episode in range(episodes):
 
     while env.t <= max_iter:
         # choose action with epsilon greedy policy
-        action = epsilonGreedy(epsilon=0.01)
+        action = epsilonGreedy(epsilon=np.clip(1 - total_sample / (max_iter*1500) + 0.05, 0, 1))
 
         # get next observation and current reward for the chosen action
         observation_next, reward, done, _ = env.step(action)
         state_next = torch.tensor(observation_next, dtype=torch.float32)
+        total_sample += 1
 
         # Compute G_0
         G = G + (discount ** (env.t - 1)) * reward
