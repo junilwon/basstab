@@ -1,0 +1,1947 @@
+Melody : 4
+4 fret, 1 string
+
+Melody : 4
+0 fret, 3 string
+
+Melody : 6
+6 fret, 1 string
+
+Melody : 6
+6 fret, 1 string
+
+Melody : 8
+8 fret, 1 string
+
+Melody : 8
+8 fret, 1 string
+
+Melody : 8
+8 fret, 1 string
+
+Melody : 11
+11 fret, 1 string
+
+Melody : 11
+11 fret, 1 string
+
+Melody : 11
+11 fret, 1 string
+
+Melody : 4
+4 fret, 1 string
+
+Melody : 4
+0 fret, 3 string
+
+Melody : 6
+6 fret, 1 string
+
+Melody : 6
+6 fret, 1 string
+
+Melody : 11
+11 fret, 1 string
+
+Melody : 11
+11 fret, 1 string
+
+Melody : 11
+11 fret, 1 string
+
+Melody : 11
+11 fret, 1 string
+
+Melody : 11
+11 fret, 1 string
+
+Melody : 11
+11 fret, 1 string
+
+Melody : 11
+11 fret, 1 string
+
+Melody : 11
+11 fret, 1 string
+
+Melody : 4
+4 fret, 1 string
+
+Melody : 4
+0 fret, 3 string
+
+Melody : 6
+6 fret, 1 string
+
+Melody : 6
+6 fret, 1 string
+
+Melody : 8
+8 fret, 1 string
+
+Melody : 8
+8 fret, 1 string
+
+Melody : 8
+8 fret, 1 string
+
+Melody : 11
+11 fret, 1 string
+
+Melody : 11
+11 fret, 1 string
+
+Melody : 11
+11 fret, 1 string
+
+Melody : 4
+4 fret, 1 string
+
+Melody : 4
+0 fret, 3 string
+
+Melody : 6
+6 fret, 1 string
+
+Melody : 6
+6 fret, 1 string
+
+Melody : 11
+11 fret, 1 string
+
+Melody : 11
+11 fret, 1 string
+
+Melody : 11
+11 fret, 1 string
+
+Melody : 11
+11 fret, 1 string
+
+Melody : 11
+11 fret, 1 string
+
+Melody : 11
+11 fret, 1 string
+
+Melody : 11
+11 fret, 1 string
+
+Melody : 11
+11 fret, 1 string
+
+Melody : 4
+4 fret, 1 string
+
+Melody : 3
+0 fret, 3 string
+
+Melody : 1
+1 fret, 1 string
+
+Melody : 11
+11 fret, 1 string
+
+Melody : 11
+11 fret, 1 string
+
+Melody : 13
+13 fret, 1 string
+
+Melody : 15
+15 fret, 1 string
+
+Melody : 4
+4 fret, 1 string
+
+Melody : 3
+0 fret, 3 string
+
+Melody : 1
+1 fret, 1 string
+
+Melody : 6
+6 fret, 1 string
+
+Melody : 11
+11 fret, 1 string
+
+Melody : 11
+11 fret, 1 string
+
+Melody : 11
+11 fret, 1 string
+
+Melody : 13
+13 fret, 1 string
+
+Melody : 15
+15 fret, 1 string
+
+Melody : 7
+7 fret, 1 string
+
+Melody : 7
+0 fret, 3 string
+
+Melody : 7
+7 fret, 1 string
+
+Melody : 7
+0 fret, 3 string
+
+Melody : 7
+7 fret, 1 string
+
+Melody : 7
+0 fret, 3 string
+
+Melody : 7
+7 fret, 1 string
+
+Melody : 9
+9 fret, 1 string
+
+Melody : 9
+9 fret, 1 string
+
+Melody : 9
+9 fret, 1 string
+
+Melody : 9
+9 fret, 1 string
+
+Melody : 9
+9 fret, 1 string
+
+Melody : 9
+9 fret, 1 string
+
+Melody : 11
+11 fret, 1 string
+
+Melody : 11
+11 fret, 1 string
+
+Melody : 11
+11 fret, 1 string
+
+Melody : 11
+11 fret, 1 string
+
+Melody : 11
+11 fret, 1 string
+
+Melody : 11
+11 fret, 1 string
+
+Melody : 6
+6 fret, 1 string
+
+Melody : 11
+11 fret, 1 string
+
+Melody : 15
+15 fret, 1 string
+
+Melody : 16
+6 fret, 3 string
+
+Melody : 15
+15 fret, 1 string
+
+Melody : 11
+11 fret, 1 string
+
+Melody : 6
+6 fret, 1 string
+
+Melody : 7
+7 fret, 1 string
+
+Melody : 7
+0 fret, 3 string
+
+Melody : 7
+7 fret, 1 string
+
+Melody : 7
+0 fret, 3 string
+
+Melody : 7
+7 fret, 1 string
+
+Melody : 7
+0 fret, 3 string
+
+Melody : 7
+7 fret, 1 string
+
+Melody : 9
+9 fret, 1 string
+
+Melody : 9
+9 fret, 1 string
+
+Melody : 9
+9 fret, 1 string
+
+Melody : 9
+9 fret, 1 string
+
+Melody : 9
+9 fret, 1 string
+
+Melody : 9
+9 fret, 1 string
+
+Melody : 4
+0 fret, 3 string
+
+Melody : 4
+4 fret, 1 string
+
+Melody : 4
+0 fret, 3 string
+
+Melody : 4
+4 fret, 1 string
+
+Melody : 4
+0 fret, 3 string
+
+Melody : 4
+4 fret, 1 string
+
+Melody : 4
+0 fret, 3 string
+
+Melody : 6
+6 fret, 1 string
+
+Melody : 6
+6 fret, 1 string
+
+Melody : 6
+6 fret, 1 string
+
+Melody : 6
+6 fret, 1 string
+
+Melody : 6
+6 fret, 1 string
+
+Melody : 3
+0 fret, 3 string
+
+Melody : 3
+3 fret, 1 string
+
+Melody : 3
+0 fret, 3 string
+
+Melody : 3
+3 fret, 1 string
+
+Melody : 3
+0 fret, 3 string
+
+Melody : 3
+3 fret, 1 string
+
+Melody : 3
+0 fret, 3 string
+
+Melody : 3
+3 fret, 1 string
+
+Melody : 8
+8 fret, 1 string
+
+Melody : 8
+8 fret, 1 string
+
+Melody : 8
+8 fret, 1 string
+
+Melody : 8
+8 fret, 1 string
+
+Melody : 8
+8 fret, 1 string
+
+Melody : 8
+8 fret, 1 string
+
+Melody : 8
+8 fret, 1 string
+
+Melody : 8
+8 fret, 1 string
+
+Melody : 1
+0 fret, 2 string
+
+Melody : 1
+0 fret, 2 string
+
+Melody : 1
+0 fret, 2 string
+
+Melody : 1
+0 fret, 2 string
+
+Melody : 1
+0 fret, 2 string
+
+Melody : 1
+0 fret, 2 string
+
+Melody : 1
+0 fret, 2 string
+
+Melody : 1
+0 fret, 2 string
+
+Melody : 3
+3 fret, 1 string
+
+Melody : 3
+0 fret, 3 string
+
+Melody : 3
+3 fret, 1 string
+
+Melody : 3
+0 fret, 3 string
+
+Melody : 3
+3 fret, 1 string
+
+Melody : 3
+0 fret, 3 string
+
+Melody : 3
+3 fret, 1 string
+
+Melody : 3
+0 fret, 3 string
+
+Melody : 8
+8 fret, 1 string
+
+Melody : 8
+8 fret, 1 string
+
+Melody : 8
+8 fret, 1 string
+
+Melody : 8
+8 fret, 1 string
+
+Melody : 8
+8 fret, 1 string
+
+Melody : 8
+8 fret, 1 string
+
+Melody : 8
+8 fret, 1 string
+
+Melody : 8
+8 fret, 1 string
+
+Melody : 3
+0 fret, 3 string
+
+Melody : 3
+3 fret, 1 string
+
+Melody : 3
+0 fret, 3 string
+
+Melody : 3
+3 fret, 1 string
+
+Melody : 3
+0 fret, 3 string
+
+Melody : 3
+3 fret, 1 string
+
+Melody : 3
+0 fret, 3 string
+
+Melody : 3
+3 fret, 1 string
+
+Melody : 4
+0 fret, 3 string
+
+Melody : 4
+4 fret, 1 string
+
+Melody : 4
+0 fret, 3 string
+
+Melody : 4
+4 fret, 1 string
+
+Melody : 4
+0 fret, 3 string
+
+Melody : 4
+4 fret, 1 string
+
+Melody : 4
+0 fret, 3 string
+
+Melody : 4
+4 fret, 1 string
+
+Melody : 6
+6 fret, 1 string
+
+Melody : 6
+6 fret, 1 string
+
+Melody : 6
+6 fret, 1 string
+
+Melody : 6
+6 fret, 1 string
+
+Melody : 6
+6 fret, 1 string
+
+Melody : 6
+6 fret, 1 string
+
+Melody : 6
+6 fret, 1 string
+
+Melody : 3
+0 fret, 3 string
+
+Melody : 3
+3 fret, 1 string
+
+Melody : 3
+0 fret, 3 string
+
+Melody : 3
+3 fret, 1 string
+
+Melody : 3
+0 fret, 3 string
+
+Melody : 3
+3 fret, 1 string
+
+Melody : 3
+0 fret, 3 string
+
+Melody : 3
+3 fret, 1 string
+
+Melody : 8
+8 fret, 1 string
+
+Melody : 8
+8 fret, 1 string
+
+Melody : 8
+8 fret, 1 string
+
+Melody : 8
+8 fret, 1 string
+
+Melody : 8
+8 fret, 1 string
+
+Melody : 8
+8 fret, 1 string
+
+Melody : 8
+8 fret, 1 string
+
+Melody : 8
+8 fret, 1 string
+
+Melody : 13
+3 fret, 3 string
+
+Melody : 13
+13 fret, 1 string
+
+Melody : 13
+13 fret, 1 string
+
+Melody : 13
+13 fret, 1 string
+
+Melody : 13
+13 fret, 1 string
+
+Melody : 13
+13 fret, 1 string
+
+Melody : 13
+13 fret, 1 string
+
+Melody : 13
+13 fret, 1 string
+
+Melody : 15
+15 fret, 1 string
+
+Melody : 15
+15 fret, 1 string
+
+Melody : 15
+15 fret, 1 string
+
+Melody : 15
+15 fret, 1 string
+
+Melody : 15
+15 fret, 1 string
+
+Melody : 15
+15 fret, 1 string
+
+Melody : 15
+15 fret, 1 string
+
+Melody : 15
+15 fret, 1 string
+
+Melody : 8
+0 fret, 3 string
+
+Melody : 8
+8 fret, 1 string
+
+Melody : 8
+8 fret, 1 string
+
+Melody : 8
+8 fret, 1 string
+
+Melody : 8
+8 fret, 1 string
+
+Melody : 8
+8 fret, 1 string
+
+Melody : 8
+8 fret, 1 string
+
+Melody : 8
+8 fret, 1 string
+
+Melody : 6
+6 fret, 1 string
+
+Melody : 6
+6 fret, 1 string
+
+Melody : 6
+6 fret, 1 string
+
+Melody : 6
+6 fret, 1 string
+
+Melody : 6
+6 fret, 1 string
+
+Melody : 6
+6 fret, 1 string
+
+Melody : 6
+6 fret, 1 string
+
+Melody : 6
+6 fret, 1 string
+
+Melody : 4
+4 fret, 1 string
+
+Melody : 4
+0 fret, 3 string
+
+Melody : 4
+4 fret, 1 string
+
+Melody : 4
+0 fret, 3 string
+
+Melody : 4
+4 fret, 1 string
+
+Melody : 4
+0 fret, 3 string
+
+Melody : 4
+4 fret, 1 string
+
+Melody : 4
+0 fret, 3 string
+
+Melody : 3
+3 fret, 1 string
+
+Melody : 3
+0 fret, 3 string
+
+Melody : 3
+3 fret, 1 string
+
+Melody : 3
+0 fret, 3 string
+
+Melody : 3
+3 fret, 1 string
+
+Melody : 3
+0 fret, 3 string
+
+Melody : 3
+3 fret, 1 string
+
+Melody : 3
+0 fret, 3 string
+
+Melody : 1
+1 fret, 1 string
+
+Melody : 1
+0 fret, 2 string
+
+Melody : 1
+0 fret, 2 string
+
+Melody : 1
+0 fret, 2 string
+
+Melody : 1
+0 fret, 2 string
+
+Melody : 1
+0 fret, 2 string
+
+Melody : 1
+0 fret, 2 string
+
+Melody : 1
+0 fret, 2 string
+
+Melody : 6
+6 fret, 1 string
+
+Melody : 6
+6 fret, 1 string
+
+Melody : 6
+6 fret, 1 string
+
+Melody : 6
+6 fret, 1 string
+
+Melody : 6
+6 fret, 1 string
+
+Melody : 6
+6 fret, 1 string
+
+Melody : 6
+6 fret, 1 string
+
+Melody : 6
+6 fret, 1 string
+
+Melody : 4
+4 fret, 1 string
+
+Melody : 4
+0 fret, 3 string
+
+Melody : 6
+6 fret, 1 string
+
+Melody : 6
+6 fret, 1 string
+
+Melody : 8
+8 fret, 1 string
+
+Melody : 8
+8 fret, 1 string
+
+Melody : 8
+8 fret, 1 string
+
+Melody : 11
+11 fret, 1 string
+
+Melody : 11
+11 fret, 1 string
+
+Melody : 11
+11 fret, 1 string
+
+Melody : 4
+4 fret, 1 string
+
+Melody : 4
+0 fret, 3 string
+
+Melody : 6
+6 fret, 1 string
+
+Melody : 6
+6 fret, 1 string
+
+Melody : 11
+11 fret, 1 string
+
+Melody : 11
+11 fret, 1 string
+
+Melody : 11
+11 fret, 1 string
+
+Melody : 11
+11 fret, 1 string
+
+Melody : 11
+11 fret, 1 string
+
+Melody : 11
+11 fret, 1 string
+
+Melody : 11
+11 fret, 1 string
+
+Melody : 11
+11 fret, 1 string
+
+Melody : 4
+4 fret, 1 string
+
+Melody : 4
+0 fret, 3 string
+
+Melody : 6
+6 fret, 1 string
+
+Melody : 6
+6 fret, 1 string
+
+Melody : 8
+8 fret, 1 string
+
+Melody : 8
+8 fret, 1 string
+
+Melody : 8
+8 fret, 1 string
+
+Melody : 11
+11 fret, 1 string
+
+Melody : 11
+11 fret, 1 string
+
+Melody : 11
+11 fret, 1 string
+
+Melody : 4
+4 fret, 1 string
+
+Melody : 4
+0 fret, 3 string
+
+Melody : 6
+6 fret, 1 string
+
+Melody : 6
+6 fret, 1 string
+
+Melody : 11
+11 fret, 1 string
+
+Melody : 11
+11 fret, 1 string
+
+Melody : 11
+11 fret, 1 string
+
+Melody : 11
+11 fret, 1 string
+
+Melody : 11
+11 fret, 1 string
+
+Melody : 11
+11 fret, 1 string
+
+Melody : 11
+11 fret, 1 string
+
+Melody : 11
+11 fret, 1 string
+
+Melody : 4
+4 fret, 1 string
+
+Melody : 3
+0 fret, 3 string
+
+Melody : 1
+1 fret, 1 string
+
+Melody : 11
+11 fret, 1 string
+
+Melody : 11
+11 fret, 1 string
+
+Melody : 13
+13 fret, 1 string
+
+Melody : 15
+15 fret, 1 string
+
+Melody : 4
+4 fret, 1 string
+
+Melody : 3
+0 fret, 3 string
+
+Melody : 1
+1 fret, 1 string
+
+Melody : 6
+6 fret, 1 string
+
+Melody : 11
+11 fret, 1 string
+
+Melody : 11
+11 fret, 1 string
+
+Melody : 11
+11 fret, 1 string
+
+Melody : 13
+13 fret, 1 string
+
+Melody : 15
+15 fret, 1 string
+
+Melody : 7
+7 fret, 1 string
+
+Melody : 7
+0 fret, 3 string
+
+Melody : 7
+7 fret, 1 string
+
+Melody : 7
+0 fret, 3 string
+
+Melody : 7
+7 fret, 1 string
+
+Melody : 7
+0 fret, 3 string
+
+Melody : 7
+7 fret, 1 string
+
+Melody : 9
+9 fret, 1 string
+
+Melody : 9
+9 fret, 1 string
+
+Melody : 9
+9 fret, 1 string
+
+Melody : 9
+9 fret, 1 string
+
+Melody : 9
+9 fret, 1 string
+
+Melody : 9
+9 fret, 1 string
+
+Melody : 11
+11 fret, 1 string
+
+Melody : 11
+11 fret, 1 string
+
+Melody : 11
+11 fret, 1 string
+
+Melody : 11
+11 fret, 1 string
+
+Melody : 11
+11 fret, 1 string
+
+Melody : 11
+11 fret, 1 string
+
+Melody : 6
+6 fret, 1 string
+
+Melody : 11
+11 fret, 1 string
+
+Melody : 15
+15 fret, 1 string
+
+Melody : 16
+6 fret, 3 string
+
+Melody : 15
+15 fret, 1 string
+
+Melody : 11
+11 fret, 1 string
+
+Melody : 6
+6 fret, 1 string
+
+Melody : 7
+7 fret, 1 string
+
+Melody : 7
+0 fret, 3 string
+
+Melody : 7
+7 fret, 1 string
+
+Melody : 7
+0 fret, 3 string
+
+Melody : 7
+7 fret, 1 string
+
+Melody : 7
+0 fret, 3 string
+
+Melody : 7
+7 fret, 1 string
+
+Melody : 9
+9 fret, 1 string
+
+Melody : 9
+9 fret, 1 string
+
+Melody : 9
+9 fret, 1 string
+
+Melody : 9
+9 fret, 1 string
+
+Melody : 9
+9 fret, 1 string
+
+Melody : 9
+9 fret, 1 string
+
+Melody : 4
+0 fret, 3 string
+
+Melody : 4
+4 fret, 1 string
+
+Melody : 4
+0 fret, 3 string
+
+Melody : 4
+4 fret, 1 string
+
+Melody : 4
+0 fret, 3 string
+
+Melody : 4
+4 fret, 1 string
+
+Melody : 4
+0 fret, 3 string
+
+Melody : 6
+6 fret, 1 string
+
+Melody : 6
+6 fret, 1 string
+
+Melody : 6
+6 fret, 1 string
+
+Melody : 6
+6 fret, 1 string
+
+Melody : 6
+6 fret, 1 string
+
+Melody : 3
+0 fret, 3 string
+
+Melody : 3
+3 fret, 1 string
+
+Melody : 3
+0 fret, 3 string
+
+Melody : 3
+3 fret, 1 string
+
+Melody : 3
+0 fret, 3 string
+
+Melody : 3
+3 fret, 1 string
+
+Melody : 3
+0 fret, 3 string
+
+Melody : 3
+3 fret, 1 string
+
+Melody : 8
+8 fret, 1 string
+
+Melody : 8
+8 fret, 1 string
+
+Melody : 8
+8 fret, 1 string
+
+Melody : 8
+8 fret, 1 string
+
+Melody : 8
+8 fret, 1 string
+
+Melody : 8
+8 fret, 1 string
+
+Melody : 8
+8 fret, 1 string
+
+Melody : 8
+8 fret, 1 string
+
+Melody : 1
+0 fret, 2 string
+
+Melody : 1
+0 fret, 2 string
+
+Melody : 1
+0 fret, 2 string
+
+Melody : 1
+0 fret, 2 string
+
+Melody : 1
+0 fret, 2 string
+
+Melody : 1
+0 fret, 2 string
+
+Melody : 1
+0 fret, 2 string
+
+Melody : 1
+0 fret, 2 string
+
+Melody : 3
+3 fret, 1 string
+
+Melody : 3
+0 fret, 3 string
+
+Melody : 3
+3 fret, 1 string
+
+Melody : 3
+0 fret, 3 string
+
+Melody : 3
+3 fret, 1 string
+
+Melody : 3
+0 fret, 3 string
+
+Melody : 3
+3 fret, 1 string
+
+Melody : 3
+0 fret, 3 string
+
+Melody : 8
+8 fret, 1 string
+
+Melody : 8
+8 fret, 1 string
+
+Melody : 8
+8 fret, 1 string
+
+Melody : 8
+8 fret, 1 string
+
+Melody : 8
+8 fret, 1 string
+
+Melody : 8
+8 fret, 1 string
+
+Melody : 8
+8 fret, 1 string
+
+Melody : 8
+8 fret, 1 string
+
+Melody : 3
+0 fret, 3 string
+
+Melody : 3
+3 fret, 1 string
+
+Melody : 3
+0 fret, 3 string
+
+Melody : 3
+3 fret, 1 string
+
+Melody : 3
+0 fret, 3 string
+
+Melody : 3
+3 fret, 1 string
+
+Melody : 3
+0 fret, 3 string
+
+Melody : 3
+3 fret, 1 string
+
+Melody : 4
+0 fret, 3 string
+
+Melody : 4
+4 fret, 1 string
+
+Melody : 4
+0 fret, 3 string
+
+Melody : 4
+4 fret, 1 string
+
+Melody : 4
+0 fret, 3 string
+
+Melody : 4
+4 fret, 1 string
+
+Melody : 4
+0 fret, 3 string
+
+Melody : 4
+4 fret, 1 string
+
+Melody : 6
+6 fret, 1 string
+
+Melody : 6
+6 fret, 1 string
+
+Melody : 6
+6 fret, 1 string
+
+Melody : 6
+6 fret, 1 string
+
+Melody : 6
+6 fret, 1 string
+
+Melody : 6
+6 fret, 1 string
+
+Melody : 6
+6 fret, 1 string
+
+Melody : 3
+0 fret, 3 string
+
+Melody : 3
+3 fret, 1 string
+
+Melody : 3
+0 fret, 3 string
+
+Melody : 3
+3 fret, 1 string
+
+Melody : 3
+0 fret, 3 string
+
+Melody : 3
+3 fret, 1 string
+
+Melody : 3
+0 fret, 3 string
+
+Melody : 3
+3 fret, 1 string
+
+Melody : 8
+8 fret, 1 string
+
+Melody : 8
+8 fret, 1 string
+
+Melody : 8
+8 fret, 1 string
+
+Melody : 8
+8 fret, 1 string
+
+Melody : 8
+8 fret, 1 string
+
+Melody : 8
+8 fret, 1 string
+
+Melody : 8
+8 fret, 1 string
+
+Melody : 8
+8 fret, 1 string
+
+Melody : 13
+3 fret, 3 string
+
+Melody : 13
+13 fret, 1 string
+
+Melody : 13
+13 fret, 1 string
+
+Melody : 13
+13 fret, 1 string
+
+Melody : 13
+13 fret, 1 string
+
+Melody : 13
+13 fret, 1 string
+
+Melody : 13
+13 fret, 1 string
+
+Melody : 13
+13 fret, 1 string
+
+Melody : 15
+15 fret, 1 string
+
+Melody : 15
+15 fret, 1 string
+
+Melody : 15
+15 fret, 1 string
+
+Melody : 15
+15 fret, 1 string
+
+Melody : 15
+15 fret, 1 string
+
+Melody : 15
+15 fret, 1 string
+
+Melody : 15
+15 fret, 1 string
+
+Melody : 15
+15 fret, 1 string
+
+Melody : 8
+0 fret, 3 string
+
+Melody : 8
+8 fret, 1 string
+
+Melody : 8
+8 fret, 1 string
+
+Melody : 8
+8 fret, 1 string
+
+Melody : 8
+8 fret, 1 string
+
+Melody : 8
+8 fret, 1 string
+
+Melody : 8
+8 fret, 1 string
+
+Melody : 8
+8 fret, 1 string
+
+Melody : 6
+6 fret, 1 string
+
+Melody : 6
+6 fret, 1 string
+
+Melody : 6
+6 fret, 1 string
+
+Melody : 6
+6 fret, 1 string
+
+Melody : 6
+6 fret, 1 string
+
+Melody : 6
+6 fret, 1 string
+
+Melody : 6
+6 fret, 1 string
+
+Melody : 6
+6 fret, 1 string
+
+Melody : 4
+4 fret, 1 string
+
+Melody : 4
+0 fret, 3 string
+
+Melody : 4
+4 fret, 1 string
+
+Melody : 4
+0 fret, 3 string
+
+Melody : 4
+4 fret, 1 string
+
+Melody : 4
+0 fret, 3 string
+
+Melody : 4
+4 fret, 1 string
+
+Melody : 4
+0 fret, 3 string
+
+Melody : 3
+3 fret, 1 string
+
+Melody : 3
+0 fret, 3 string
+
+Melody : 3
+3 fret, 1 string
+
+Melody : 3
+0 fret, 3 string
+
+Melody : 3
+3 fret, 1 string
+
+Melody : 3
+0 fret, 3 string
+
+Melody : 3
+3 fret, 1 string
+
+Melody : 3
+0 fret, 3 string
+
+Melody : 1
+1 fret, 1 string
+
+Melody : 1
+0 fret, 2 string
+
+Melody : 1
+0 fret, 2 string
+
+Melody : 1
+0 fret, 2 string
+
+Melody : 1
+0 fret, 2 string
+
+Melody : 1
+0 fret, 2 string
+
+Melody : 1
+0 fret, 2 string
+
+Melody : 1
+0 fret, 2 string
+
+Melody : 6
+6 fret, 1 string
+
+Melody : 6
+6 fret, 1 string
+
+Melody : 6
+6 fret, 1 string
+
+Melody : 6
+6 fret, 1 string
+
+Melody : 6
+6 fret, 1 string
+
+Melody : 6
+6 fret, 1 string
+
+Melody : 6
+6 fret, 1 string
+
+Melody : 6
+6 fret, 1 string
+
+Melody : 3
+0 fret, 3 string
+
+Melody : 3
+3 fret, 1 string
+
+Melody : 3
+0 fret, 3 string
+
+Melody : 3
+3 fret, 1 string
+
+Melody : 3
+0 fret, 3 string
+
+Melody : 3
+3 fret, 1 string
+
+Melody : 3
+0 fret, 3 string
+
+Melody : 3
+3 fret, 1 string
+
+Melody : 8
+8 fret, 1 string
+
+Melody : 8
+8 fret, 1 string
+
+Melody : 8
+8 fret, 1 string
+
+Melody : 8
+8 fret, 1 string
+
+Melody : 8
+8 fret, 1 string
+
+Melody : 8
+8 fret, 1 string
+
+Melody : 8
+8 fret, 1 string
+
+Melody : 8
+8 fret, 1 string
+
+Melody : 1
+0 fret, 2 string
+
+Melody : 1
+0 fret, 2 string
+
+Melody : 1
+0 fret, 2 string
+
+Melody : 1
+0 fret, 2 string
+
+Melody : 1
+0 fret, 2 string
+
+Melody : 1
+0 fret, 2 string
+
+Melody : 1
+0 fret, 2 string
+
+Melody : 1
+0 fret, 2 string
+
+Melody : 3
+3 fret, 1 string
+
+Melody : 3
+0 fret, 3 string
+
+Melody : 3
+3 fret, 1 string
+
+Melody : 3
+0 fret, 3 string
+
+Melody : 3
+3 fret, 1 string
+
+Melody : 3
+0 fret, 3 string
+
+Melody : 3
+3 fret, 1 string
+
+Melody : 3
+0 fret, 3 string
+
+Melody : 8
+8 fret, 1 string
+
+Melody : 8
+8 fret, 1 string
+
+Melody : 8
+8 fret, 1 string
+
+Melody : 8
+8 fret, 1 string
+
+Melody : 8
+8 fret, 1 string
+
+Melody : 8
+8 fret, 1 string
+
+Melody : 8
+8 fret, 1 string
+
+Melody : 8
+8 fret, 1 string
+
+Melody : 3
+0 fret, 3 string
+
+Melody : 3
+3 fret, 1 string
+
+Melody : 3
+0 fret, 3 string
+
+Melody : 3
+3 fret, 1 string
+
+Melody : 3
+0 fret, 3 string
+
+Melody : 3
+3 fret, 1 string
+
+Melody : 3
+0 fret, 3 string
+
+Melody : 3
+3 fret, 1 string
+
+Melody : 4
+0 fret, 3 string
+
+Melody : 4
+4 fret, 1 string
+
+Melody : 4
+0 fret, 3 string
+
+Melody : 4
+4 fret, 1 string
+
+Melody : 4
+0 fret, 3 string
+
+Melody : 4
+4 fret, 1 string
+
+Melody : 4
+0 fret, 3 string
+
+Melody : 4
+4 fret, 1 string
+
+Melody : 6
+6 fret, 1 string
+
+Melody : 6
+6 fret, 1 string
+
+Melody : 6
+6 fret, 1 string
+
+Melody : 6
+6 fret, 1 string
+
+Melody : 6
+6 fret, 1 string
+
+Melody : 6
+6 fret, 1 string
+
+Melody : 6
+6 fret, 1 string
+
+Melody : 3
+0 fret, 3 string
+
+Melody : 3
+3 fret, 1 string
+
+Melody : 3
+0 fret, 3 string
+
+Melody : 3
+3 fret, 1 string
+
+Melody : 3
+0 fret, 3 string
+
+Melody : 3
+3 fret, 1 string
+
+Melody : 3
+0 fret, 3 string
+
+Melody : 3
+3 fret, 1 string
+
+Melody : 8
+8 fret, 1 string
+
+Melody : 8
+8 fret, 1 string
+
+Melody : 8
+8 fret, 1 string
+
+Melody : 8
+8 fret, 1 string
+
+Melody : 8
+8 fret, 1 string
+
+Melody : 8
+8 fret, 1 string
+
+Melody : 8
+8 fret, 1 string
+
+Melody : 8
+8 fret, 1 string
+
+Melody : 13
+3 fret, 3 string
+
+Melody : 13
+13 fret, 1 string
+
+Melody : 13
+13 fret, 1 string
+
+Melody : 13
+13 fret, 1 string
+
+Melody : 13
+13 fret, 1 string
+
+Melody : 13
+13 fret, 1 string
+
+Melody : 13
+13 fret, 1 string
+
+Melody : 13
+13 fret, 1 string
+
+Melody : 15
+15 fret, 1 string
+
+Melody : 15
+15 fret, 1 string
+
+Melody : 15
+15 fret, 1 string
+
+Melody : 15
+15 fret, 1 string
+
+Melody : 15
+15 fret, 1 string
+
+Melody : 15
+15 fret, 1 string
+
+Melody : 15
+15 fret, 1 string
+
+Melody : 15
+15 fret, 1 string
+
+Melody : 8
+0 fret, 3 string
+
+Melody : 8
+8 fret, 1 string
+
+Melody : 8
+8 fret, 1 string
+
+Melody : 8
+8 fret, 1 string
+
+Melody : 8
+8 fret, 1 string
+
+Melody : 8
+8 fret, 1 string
+
+Melody : 8
+8 fret, 1 string
+
+Melody : 8
+8 fret, 1 string
+
+Melody : 6
+6 fret, 1 string
+
+Melody : 6
+6 fret, 1 string
+
+Melody : 6
+6 fret, 1 string
+
+Melody : 6
+6 fret, 1 string
+
+Melody : 6
+6 fret, 1 string
+
+Melody : 6
+6 fret, 1 string
+
+Melody : 6
+6 fret, 1 string
+
+Melody : 6
+6 fret, 1 string
+
+Melody : 4
+4 fret, 1 string
+
+Melody : 4
+0 fret, 3 string
+
+Melody : 4
+4 fret, 1 string
+
+Melody : 4
+0 fret, 3 string
+
+Melody : 4
+4 fret, 1 string
+
+Melody : 4
+0 fret, 3 string
+
+Melody : 4
+4 fret, 1 string
+
+Melody : 4
+0 fret, 3 string
+
+Melody : 3
+3 fret, 1 string
+
+Melody : 3
+0 fret, 3 string
+
+Melody : 3
+3 fret, 1 string
+
+Melody : 3
+0 fret, 3 string
+
+Melody : 3
+3 fret, 1 string
+
+Melody : 3
+0 fret, 3 string
+
+Melody : 3
+3 fret, 1 string
+
+Melody : 3
+0 fret, 3 string
+
+Melody : 1
+1 fret, 1 string
+
+Melody : 1
+0 fret, 2 string
+
+Melody : 1
+0 fret, 2 string
+
+Melody : 1
+0 fret, 2 string
+
+Melody : 1
+0 fret, 2 string
+
+Melody : 1
+0 fret, 2 string
+
+Melody : 1
+0 fret, 2 string
+
+Melody : 1
+0 fret, 2 string
+
+Melody : 6
+6 fret, 1 string
+
+Melody : 6
+6 fret, 1 string
+
+Melody : 6
+6 fret, 1 string
+
+Melody : 6
+6 fret, 1 string
+
+Melody : 6
+6 fret, 1 string
+
+Melody : 6
+6 fret, 1 string
+

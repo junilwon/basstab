@@ -1,33 +1,12 @@
 import numpy as np
 from gym import Env, spaces
 
-
-# DFS to check that it's a valid path.
-# def is_valid(board: List[List[str]], max_size: int) -> bool:
-#     frontier, discovered = [], set()
-#     frontier.append((0, 0))
-#     while frontier:
-#         r, c = frontier.pop()
-#         if not (r, c) in discovered:
-#             discovered.add((r, c))
-#             directions = [(1, 0), (0, 1), (-1, 0), (0, -1)]
-#             for x, y in directions:
-#                 r_new = r + x
-#                 c_new = c + y
-#                 if r_new < 0 or r_new >= max_size or c_new < 0 or c_new >= max_size:
-#                     continue
-#                 if board[r_new][c_new] == "G":
-#                     return True
-#                 if board[r_new][c_new] != "H":
-#                     frontier.append((r_new, c_new))
-#     return False
-
 # loading bass score "Time of Our Life"
 # validity checked
 def generate_score():
     f = open("./score.txt", 'r')
     line = f.readline()
-    line = line.replace(",", "").replace(" ", "")
+    line = line.replace(",", "").replace("\n", "").split(" ")
     score = list(map(int, line))
     score.append(0)
     return score
@@ -134,9 +113,7 @@ class ScoreEnv(Env):
 
     def one_hot_decoding(self, one_hot_vector):
 
-        len = len(one_hot_vector)
-
-        for i in range(len):
+        for i in range(len(one_hot_vector)):
             if one_hot_vector[i] == 1:
                 return i
 
@@ -152,7 +129,7 @@ class ScoreEnv(Env):
         finger_state = a // 4
         string_state = a % 4
         fret_state = curr_melody_state - 5 * string_state
-        
+
         # compute reward
         curr_hand_state = [fret_state, finger_state, string_state]
         r = self.compute_reward(curr_hand_state)

@@ -1,4 +1,4 @@
-from score import ScoreEnv
+from score import ScoreEnv, generate_score
 from collections import deque
 import random
 import torch
@@ -7,7 +7,8 @@ import torch.nn.functional as F
 from matplotlib import pyplot as plt
 import numpy as np
 import csv
-
+import os
+import glob
 
 
 class QNetwork(Module):
@@ -15,8 +16,8 @@ class QNetwork(Module):
         super().__init__()
         self.fc = Linear(66, 128)
         self.fcQ1 = Linear(128, 256)
-        self.fcQ2 = Linear(256, 256)
-        self.fcQ3 = Linear(256, 20)
+        # self.fcQ2 = Linear(256, 256)
+        self.fcQ2 = Linear(256, 20)
 
     def forward(self, x):
         x = self.fc(x)
@@ -24,8 +25,9 @@ class QNetwork(Module):
         x = self.fcQ1(x)
         x = F.relu(x)
         x = self.fcQ2(x)
-        x = F.relu(x)
-        x = self.fcQ3(x)
+        # x = F.relu(x)
+        # x = self.fcQ3(x)
+
 
         return x
 
@@ -40,19 +42,33 @@ replay_memory = deque(maxlen=1000000)  # replay buffer
 discount = 0.99  # discount factor gamma
 mini_batch_size = 32
 
+def makeckptdir():
+    # CHECKPOINT
+    ckpt_folder = os.path.join('./ckpt_DQN')
+    if not os.path.exists(ckpt_folder):
+        os.mkdir(ckpt_folder)
+
+    if len(glob.glob(os.path.join(ckpt_folder, '*.pt'))) > 0:
+        # load the last ckpt
+        checkpoint = torch.load(glob.glob(os.path.join(ckpt_folder, '*.pt'))[-1], map_location=torch.device('cpu'))
+
+        Q.load_state_dict(checkpoint['Q_model'])
+        Q_target.load_state_dict(checkpoint['Q_target_model'])
+
+
+        last_episode_id = checkpoint['episode']
+        reward_history = checkpoint['reward_history']
+        reward_history_100 = reward_history[-100:]
+        eps = checkpoint['epsilon']
+
+    return ckpt_folder
+
 def update_Q():
-
-    loss = 0
-    for state, action, state_next, reward, done in random.sample(replay_memory, min(mini_batch_size, len(replay_memory))):
-        with torch.no_grad():
-            if done:
-                target = reward
-            else:
-                target = reward + discount * torch.max(Q_target(state_next))
-
-        loss = loss + (target - Q(state)[action]) ** 2
-
-    loss = loss / mini_batch_size
+    x = random.sample(replay_memory, min(mini_batch_size, len(replay_memory)))
+    with torch.no_grad():
+        target = reward + discount * torch.max(Q_target(state_next))
+    loss = (target - Q(state)[action]) ** 2
+    loss = torch.mean(loss)
 
     optimizer.zero_grad()
 
@@ -75,15 +91,15 @@ def stateDecoding(state):
     string_state = env.one_hot_decoding(state[26:30])
 
     # fret number decoding
-    assert fret_state in range(0, 21), "invalid fret number"
+    assert fret_state in range(0, 21), f"invalid fret number {fret_state}"
     fret_number = fret_state
 
     # finger number decoding
-    assert finger_state in (0, 5), "invalid finger number"
+    assert finger_state in range(0, 5), f"invalid finger number {finger_state}"
     finger_number = finger_state
 
     # string number decoding
-    assert string_state in (0, 4), "invalid string number"
+    assert string_state in range(0, 4), f"invalid string number {string_state}"
     string_number = string_state + 1
 
     return fret_number, finger_number, string_number
@@ -99,78 +115,110 @@ reward_history = []
 target_interval = 100
 target_counter = 0
 
-episodes = 2000
+episodes = 5000
 max_iter = env.episode_length
 total_sample = 0
+eps = 1
+last_episode_id = 0
+ckpt_folder = makeckptdir()
+train = False
 
 # train : DQN
-for episode in range(episodes):
-    # sum of accumulated rewards
-    G = 0
+if train:
+    for episode in range(last_episode_id, episodes):
+        # sum of accumulated rewards
+        G = 0
 
-    # get initial observation
+        # get initial observation
+        observation, _ = env.reset()
+        state = torch.tensor(observation, dtype=torch.float32)
+
+        while env.t <= max_iter:
+            # choose action with epsilon greedy policy
+            eps=np.clip(1 - total_sample / (max_iter * 1500) + 0.1, 0.01, 1)
+            action = epsilonGreedy(epsilon=eps)
+
+            # get next observation and current reward for the chosen action
+            observation_next, reward, done, _ = env.step(action)
+            state_next = torch.tensor(observation_next, dtype=torch.float32)
+            total_sample += 1
+
+            # Compute G_0
+            G = G + (discount ** (env.t - 1)) * reward
+
+            # Store transition into the replay memory
+            replay_memory.append([state, action, state_next, reward, done])
+
+            update_Q()
+
+            # periodically update target network
+            target_counter = target_counter + 1
+            if target_counter % target_interval == 0:
+                Q_target.load_state_dict(Q.state_dict())
+
+            if done:
+                break
+
+            # pass observation to the next step
+            observation = observation_next
+            state = state_next
+
+            # compute average reward
+        reward_history_100.append(G)
+        reward_history.append(G)
+        avg = sum(reward_history_100) / len(reward_history_100)
+        if episode % 10 == 0:
+            print('episode: {}, reward: {:.1f}, avg: {:.1f}, eps: {}'.format(episode, G, avg, eps))
+
+        # checkpoint storing
+        if episode % 100 == 1:
+            # return plotting
+            plt.figure()
+            plt.plot(reward_history)
+            plt.legend(['episode reward'], loc=1)
+            plt.xlabel('m episode')
+            plt.ylabel('reward')
+            plt.savefig(os.path.join(ckpt_folder, 'rewards_' + str(episode).zfill(8) + '.jpg'))
+            plt.close()
+
+            # checkpoint storing
+            torch.save({'episode': episode,
+                        'reward_history': reward_history,
+                        'Q_model': Q.state_dict(),
+                        'Q_target_model': Q_target.state_dict(),
+                        'epsilon': eps
+                        },
+                       os.path.join(ckpt_folder, 'ckpt_' + str(episode).zfill(8) + '.pt'))
+
+else:
+    results = []
+    # call latest checkpoint
+    if len(glob.glob(os.path.join(ckpt_folder, '*.pt'))) > 0:
+        # load the last ckpt
+        checkpoint = torch.load(glob.glob(os.path.join(ckpt_folder, '*.pt'))[-1], map_location=torch.device('cpu'))
+        Q.load_state_dict(checkpoint['Q_model'])
+
+    # inference
     observation, _ = env.reset()
     state = torch.tensor(observation, dtype=torch.float32)
-
-    while env.t <= max_iter:
-        # choose action with epsilon greedy policy
-        action = epsilonGreedy(epsilon=np.clip(1 - total_sample / (max_iter*1500) + 0.05, 0, 1))
-
-        # get next observation and current reward for the chosen action
-        observation_next, reward, done, _ = env.step(action)
-        state_next = torch.tensor(observation_next, dtype=torch.float32)
-        total_sample += 1
-
-        # Compute G_0
+    done = False
+    G = 0
+    while not done:
+        state = torch.tensor(state, dtype=torch.float32)
+        action = torch.argmax(Q(state)).item()
+        state, reward, done, _ = env.step(action)
         G = G + (discount ** (env.t - 1)) * reward
+        state_decoded = stateDecoding(state)
+        results.append([state_decoded[0], state_decoded[2]])
 
-        # Store transition into the replay memory
-        replay_memory.append([state, action, state_next, reward, done])
+    # save results as csv file
+    with open('result.txt', 'w', encoding='UTF-8') as f:
+        score = generate_score()
+        del score[-1]
+        assert len(score) == len(results), f"length of score and results are different : {len(score)} and {len(results)}"
 
-        update_Q()
-
-        # periodically update target network
-        target_counter = target_counter + 1
-        if target_counter % target_interval == 0:
-            Q_target.load_state_dict(Q.state_dict())
-
-        if done:
-            break
-
-        # pass observation to the next step
-        observation = observation_next
-        state = state_next
-
-        # compute average reward
-    reward_history_100.append(G)
-    reward_history.append(G)
-    avg = sum(reward_history_100) / len(reward_history_100)
-    if episode % 10 == 0:
-        print('episode: {}, reward: {:.1f}, avg: {:.1f}'.format(episode, G, avg))
-
-# plot objective
-t = range(episodes)
-plt.plot(t, np.array(reward_history), 'b', linewidth = 2, label = 'DQN')
-plt.legend(prop={'size':12})
-plt.xlabel('Iteration')
-plt.ylabel('Total rewards')
-plt.savefig('return_DQN.png')
-
-results = []
-
-# inference
-while not done:
-    state = torch.tensor(state, dtype=torch.float32)
-    action = torch.argmax(Q(state)).item()
-    state, reward, done, _ = env.step(action)
-
-    state_decoded = stateDecoding(state)
-    results.append([state[0], state[1]])
-
-# save results as csv file
-with open("result.csv", "wb") as f:
-    writer = csv.writer(f)
-    writer.writerows(results)
+        for i in range(len(results)):
+            f.write(f'Melody : {score[i]}\n{results[i][0]} fret, {results[i][1]} string\n\n')
 
 
 
