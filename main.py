@@ -24,9 +24,9 @@ class QNetwork(Module):
         x = F.relu(x)
         x = self.fcQ1(x)
         x = F.relu(x)
-        x = self.fcQ2(x)
+        # x = self.fcQ2(x)
         # x = F.relu(x)
-        # x = self.fcQ3(x)
+        x = self.fcQ2(x)
 
 
         return x
@@ -64,24 +64,41 @@ def makeckptdir():
     return ckpt_folder
 
 def update_Q():
-    x = random.sample(replay_memory, min(mini_batch_size, len(replay_memory)))
+    states = []
+    actions = []
+    next_states = []
+    dones = []
+    rewards = []
+    for state, action, state_next, reward, done in random.sample(replay_memory, min(mini_batch_size, len(replay_memory))):
+        states.append(state)
+        actions.append(action)
+        next_states.append(state_next)
+        dones.append(done)
+        rewards.append(reward)
+
+    states = torch.stack(states)
+    actions = torch.tensor(actions).type(torch.int64)
+    next_states = torch.stack(next_states)
+    dones = torch.tensor(dones, dtype=torch.int64)
+    rewards = torch.tensor(rewards)
+
     with torch.no_grad():
-        target = reward + discount * torch.max(Q_target(state_next))
-    loss = (target - Q(state)[action]) ** 2
+        target = rewards + (1-dones.view(-1, 1)) * discount * Q_target(next_states).max(1)[0] ##
+    curr_Q = Q(states).gather(1, actions.view(-1, 1))
+    loss = (target - curr_Q.squeeze()) ** 2
     loss = torch.mean(loss)
 
     optimizer.zero_grad()
 
     loss.backward()
 
+
 def epsilonGreedy(epsilon):
-
     assert epsilon >= 0 and epsilon <= 1, "invalid epsilon value"
-
     if random.random() < epsilon :
-        return random.randint(0, 19)
+        return random.randint(0, 19) ##
     else :
-        return torch.argmax(Q(state)).item()
+        return torch.argmax(Q(state)).item() ##
 
 def stateDecoding(state):
 
@@ -121,7 +138,7 @@ total_sample = 0
 eps = 1
 last_episode_id = 0
 ckpt_folder = makeckptdir()
-train = False
+train = True
 
 # train : DQN
 if train:
@@ -135,7 +152,7 @@ if train:
 
         while env.t <= max_iter:
             # choose action with epsilon greedy policy
-            eps=np.clip(1 - total_sample / (max_iter * 1500) + 0.1, 0.01, 1)
+            eps = np.clip(1.1 - total_sample / (max_iter * 3000), 0.05, 1)
             action = epsilonGreedy(epsilon=eps)
 
             # get next observation and current reward for the chosen action
@@ -148,8 +165,8 @@ if train:
 
             # Store transition into the replay memory
             replay_memory.append([state, action, state_next, reward, done])
-
-            update_Q()
+            if len(replay_memory) >= mini_batch_size:
+                update_Q()
 
             # periodically update target network
             target_counter = target_counter + 1

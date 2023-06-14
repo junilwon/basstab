@@ -37,7 +37,7 @@ class ScoreEnv(Env):
             return 0
 
         # state download
-        last_fret_state, last_finger_state, last_string_state  = self.last_hand_state
+        last_fret_state, last_finger_state, last_string_state = self.last_hand_state
         curr_fret_state, curr_finger_state, curr_string_state = curr_hand_state
 
 
