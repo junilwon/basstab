@@ -33,7 +33,7 @@ class QNetwork(Module):
 
 # network and optimizer
 Q = QNetwork()
-optimizer = torch.optim.Adam(Q.parameters(), lr=0.0005)
+optimizer = torch.optim.Adam(Q.parameters(), lr=0.005)
 
 # target network
 Q_target = QNetwork()
@@ -100,6 +100,30 @@ def epsilonGreedy(epsilon):
     else :
         return torch.argmax(Q(state)).item() ##
 
+def validActionSample(epsilon):
+    # sample action until valid
+
+    t = 0
+    curr_melody_state = env.score[env.t]
+    while True:
+        t += 1
+        # epsilon greedy policy
+        action = epsilonGreedy(epsilon=epsilon)
+
+        # get next observation and current reward for the chosen action
+
+        finger_state = action // 4
+        string_state = action % 4
+        fret_state = curr_melody_state - 5 * string_state
+
+        if not (fret_state < 0 or fret_state > 20 or (finger_state == 0 and fret_state > 0)):
+            break
+
+        assert t != 100000, "Cannot return valid action"
+
+    return action
+
+
 def stateDecoding(state):
 
     # one hot decoding
@@ -132,7 +156,7 @@ reward_history = []
 target_interval = 100
 target_counter = 0
 
-episodes = 5000
+episodes = 2000
 max_iter = env.episode_length
 total_sample = 0
 eps = 1
@@ -152,8 +176,9 @@ if train:
 
         while env.t <= max_iter:
             # choose action with epsilon greedy policy
-            eps = np.clip(1.1 - total_sample / (max_iter * 3000), 0.05, 1)
-            action = epsilonGreedy(epsilon=eps)
+            eps = np.clip(1.1 - total_sample / (max_iter * 1000), 0.05, 1)
+
+            action = validActionSample(eps)
 
             # get next observation and current reward for the chosen action
             observation_next, reward, done, _ = env.step(action)
@@ -226,7 +251,7 @@ else:
         state, reward, done, _ = env.step(action)
         G = G + (discount ** (env.t - 1)) * reward
         state_decoded = stateDecoding(state)
-        results.append([state_decoded[0], state_decoded[2]])
+        results.append([state_decoded[0], state_decoded[2], state_decoded[1], reward])
 
     # save results as csv file
     with open('result.txt', 'w', encoding='UTF-8') as f:
@@ -235,7 +260,7 @@ else:
         assert len(score) == len(results), f"length of score and results are different : {len(score)} and {len(results)}"
 
         for i in range(len(results)):
-            f.write(f'Melody : {score[i]}\n{results[i][0]} fret, {results[i][1]} string\n\n')
+            f.write(f'Melody : {score[i]}\n{results[i][0]} fret, {results[i][1]} string\n{results[i][2]} finger\ngot {results[i][3]} reward\n\n')
 
 
 
