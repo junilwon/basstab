@@ -17,26 +17,18 @@ class QNetwork(Module):
         super().__init__()
         self.fc = Linear(66, 128)
         self.fcQ1 = Linear(128, 256)
-        # self.fcQ2 = Linear(256, 256)
         self.fcQ2 = Linear(256, 20)
 
-        self.prelu = nn.PReLU()
-        self.prelu1 = nn.PReLU()
-        self.prelu2 = nn.PReLU()
+        # self.prelu = nn.PReLU()
+        # self.prelu1 = nn.PReLU()
+        # self.prelu2 = nn.PReLU()
 
     def forward(self, x):
         x = self.fc(x)
-        # x = self.prelu(x)
-        x = F.tanh(x)
+        x = F.relu(x)
         x = self.fcQ1(x)
-        # x = self.prelu1(x)
-        x = F.tanh(x)
+        x = F.relu(x)
         x = self.fcQ2(x)
-        # x = self.prelu2(x)
-        # x = self.fcQ3(x)
-        x = F.tanh(x)
-
-
 
         return x
 
