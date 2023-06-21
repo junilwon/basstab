@@ -2,6 +2,7 @@ from score import ScoreEnv, generate_score
 from collections import deque
 import random
 import torch
+import torch.nn as nn
 from torch.nn import Module, Linear
 import torch.nn.functional as F
 from matplotlib import pyplot as plt
@@ -19,21 +20,29 @@ class QNetwork(Module):
         # self.fcQ2 = Linear(256, 256)
         self.fcQ2 = Linear(256, 20)
 
+        self.prelu = nn.PReLU()
+        self.prelu1 = nn.PReLU()
+        self.prelu2 = nn.PReLU()
+
     def forward(self, x):
         x = self.fc(x)
-        x = F.relu(x)
+        # x = self.prelu(x)
+        x = F.tanh(x)
         x = self.fcQ1(x)
-        x = F.relu(x)
-        # x = self.fcQ2(x)
-        # x = F.relu(x)
+        # x = self.prelu1(x)
+        x = F.tanh(x)
         x = self.fcQ2(x)
+        # x = self.prelu2(x)
+        # x = self.fcQ3(x)
+        x = F.tanh(x)
+
 
 
         return x
 
 # network and optimizer
 Q = QNetwork()
-optimizer = torch.optim.Adam(Q.parameters(), lr=0.005)
+optimizer = torch.optim.Adam(Q.parameters(), lr=0.0005)
 
 # target network
 Q_target = QNetwork()
@@ -64,11 +73,14 @@ def makeckptdir():
     return ckpt_folder
 
 def update_Q():
+
+    loss = 0
     states = []
     actions = []
     next_states = []
     dones = []
     rewards = []
+
     for state, action, state_next, reward, done in random.sample(replay_memory, min(mini_batch_size, len(replay_memory))):
         states.append(state)
         actions.append(action)
@@ -82,9 +94,31 @@ def update_Q():
     dones = torch.tensor(dones, dtype=torch.int64)
     rewards = torch.tensor(rewards)
 
+
+    inf = torch.tensor([float('inf')])
+    #################################################
+    # action masking : targetQ -> -inf if
+    invalid_actions = []
+    for batch in range(mini_batch_size):
+        invalid_action = np.zeros(20)
+        next_melody = env.one_hot_decoding(next_states[batch, 30:66])
+        for a in range(env.nA):
+            finger = a // 4
+            string = a % 4
+            fret = next_melody - 5 * string
+            if fret < 0 or fret > 20 or (finger == 0 and fret != 0):
+                invalid_action[a] = 1
+        invalid_actions.append(list(invalid_action))
+    invalid_actions = torch.Tensor(invalid_actions)
+    #################################################
+    targetQ = Q_target(next_states)
+    targetQ = targetQ - inf * invalid_actions
+
+    curr_Q = Q(states)
+
     with torch.no_grad():
-        target = rewards + (1-dones.view(-1, 1)) * discount * Q_target(next_states).max(1)[0] ##
-    curr_Q = Q(states).gather(1, actions.view(-1, 1))
+        target = rewards + (1-dones.view(-1, 1)) * discount * targetQ.max(1)[0]
+    curr_Q = curr_Q.gather(1, actions.view(-1, 1))
     loss = (target - curr_Q.squeeze()) ** 2
     loss = torch.mean(loss)
 
@@ -101,27 +135,30 @@ def epsilonGreedy(epsilon):
         return torch.argmax(Q(state)).item() ##
 
 def validActionSample(epsilon):
-    # sample action until valid
 
-    t = 0
-    curr_melody_state = env.score[env.t]
-    while True:
-        t += 1
-        # epsilon greedy policy
-        action = epsilonGreedy(epsilon=epsilon)
+    inf = torch.tensor([float('inf')])
 
-        # get next observation and current reward for the chosen action
+    next_melody = env.score[env.t]
+    valid_action = []
+    invalid_action = np.zeros(env.nA)
+    for a in range(env.nA):
+        finger = a // 4
+        string = a % 4
+        fret = next_melody - 5 * string
+        if fret < 0 or fret > 20 or (finger == 0 and fret > 0):
+            invalid_action[a] = 1
+        else:
+            valid_action.append(a)
 
-        finger_state = action // 4
-        string_state = action % 4
-        fret_state = curr_melody_state - 5 * string_state
+    invalid_action = torch.Tensor(invalid_action)
 
-        if not (fret_state < 0 or fret_state > 20 or (finger_state == 0 and fret_state > 0)):
-            break
+    curr_Q = Q(state)
+    curr_Q = curr_Q - inf * invalid_action
 
-        assert t != 100000, "Cannot return valid action"
-
-    return action
+    if random.random() < epsilon:
+        return random.choice(valid_action)
+    else:
+        return torch.argmax(curr_Q).item()
 
 
 def stateDecoding(state):
@@ -141,7 +178,7 @@ def stateDecoding(state):
 
     # string number decoding
     assert string_state in range(0, 4), f"invalid string number {string_state}"
-    string_number = string_state + 1
+    string_number = string_state
 
     return fret_number, finger_number, string_number
 
@@ -156,7 +193,7 @@ reward_history = []
 target_interval = 100
 target_counter = 0
 
-episodes = 2000
+episodes = 10000
 max_iter = env.episode_length
 total_sample = 0
 eps = 1
@@ -176,9 +213,10 @@ if train:
 
         while env.t <= max_iter:
             # choose action with epsilon greedy policy
-            eps = np.clip(1.1 - total_sample / (max_iter * 1000), 0.05, 1)
+            eps = np.clip(1.1 - total_sample / (max_iter * 500), 0.05, 1)
 
             action = validActionSample(eps)
+            # action = epsilonGreedy(eps)
 
             # get next observation and current reward for the chosen action
             observation_next, reward, done, _ = env.step(action)

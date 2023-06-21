@@ -20,11 +20,11 @@ class ScoreEnv(Env):
         self.episode_length = len(score)
 
         # action & space dimension
-        nA = 20
-        nS = 66
+        self.nA = 20
+        self.nS = 66
 
-        self.observation_space = spaces.Discrete(nS)
-        self.action_space = spaces.Discrete(nA)
+        self.observation_space = spaces.Discrete(self.nS)
+        self.action_space = spaces.Discrete(self.nA)
 
         self.last_hand_state = None
 
@@ -42,8 +42,9 @@ class ScoreEnv(Env):
 
 
         # impossible step
-        if last_fret_state < 0 or last_fret_state > 20 or (last_finger_state == 0 and last_fret_state > 0) :
+        if curr_fret_state < 0 or curr_fret_state > 20 or (curr_finger_state == 0 and curr_fret_state > 0) :
             return -100
+            # assert 0, "invalid step"
         # normal steps
         elif last_finger_state == 0 :
             return 0
@@ -138,7 +139,6 @@ class ScoreEnv(Env):
         self.t += 1
         self.last_hand_state = curr_hand_state
 
-        # next melody update
         next_melody_state = self.score[self.t]
 
         # one-hot state transition
