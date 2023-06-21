@@ -1,0 +1,3245 @@
+Melody : 4
+4 fret, 0 string
+4 finger
+got 0 reward
+
+Melody : 4
+4 fret, 0 string
+4 finger
+got 0 reward
+
+Melody : 6
+1 fret, 1 string
+1 finger
+got 0 reward
+
+Melody : 6
+1 fret, 1 string
+1 finger
+got 0 reward
+
+Melody : 8
+3 fret, 1 string
+4 finger
+got 0 reward
+
+Melody : 8
+3 fret, 1 string
+4 finger
+got 0 reward
+
+Melody : 8
+3 fret, 1 string
+4 finger
+got 0 reward
+
+Melody : 11
+1 fret, 2 string
+1 finger
+got 0 reward
+
+Melody : 11
+1 fret, 2 string
+1 finger
+got 0 reward
+
+Melody : 11
+1 fret, 2 string
+1 finger
+got 0 reward
+
+Melody : 4
+4 fret, 0 string
+4 finger
+got 0 reward
+
+Melody : 4
+4 fret, 0 string
+4 finger
+got 0 reward
+
+Melody : 6
+1 fret, 1 string
+1 finger
+got 0 reward
+
+Melody : 6
+1 fret, 1 string
+1 finger
+got 0 reward
+
+Melody : 11
+1 fret, 2 string
+4 finger
+got 0 reward
+
+Melody : 11
+1 fret, 2 string
+4 finger
+got 0 reward
+
+Melody : 11
+1 fret, 2 string
+4 finger
+got 0 reward
+
+Melody : 11
+1 fret, 2 string
+4 finger
+got 0 reward
+
+Melody : 11
+1 fret, 2 string
+4 finger
+got 0 reward
+
+Melody : 11
+1 fret, 2 string
+4 finger
+got 0 reward
+
+Melody : 11
+1 fret, 2 string
+4 finger
+got 0 reward
+
+Melody : 11
+1 fret, 2 string
+4 finger
+got 0 reward
+
+Melody : 4
+4 fret, 0 string
+4 finger
+got -1 reward
+
+Melody : 4
+4 fret, 0 string
+4 finger
+got 0 reward
+
+Melody : 6
+1 fret, 1 string
+1 finger
+got 0 reward
+
+Melody : 6
+1 fret, 1 string
+1 finger
+got 0 reward
+
+Melody : 8
+3 fret, 1 string
+4 finger
+got 0 reward
+
+Melody : 8
+3 fret, 1 string
+4 finger
+got 0 reward
+
+Melody : 8
+3 fret, 1 string
+4 finger
+got 0 reward
+
+Melody : 11
+1 fret, 2 string
+1 finger
+got 0 reward
+
+Melody : 11
+1 fret, 2 string
+1 finger
+got 0 reward
+
+Melody : 11
+1 fret, 2 string
+1 finger
+got 0 reward
+
+Melody : 4
+4 fret, 0 string
+4 finger
+got 0 reward
+
+Melody : 4
+4 fret, 0 string
+4 finger
+got 0 reward
+
+Melody : 6
+1 fret, 1 string
+1 finger
+got 0 reward
+
+Melody : 6
+1 fret, 1 string
+1 finger
+got 0 reward
+
+Melody : 11
+1 fret, 2 string
+4 finger
+got 0 reward
+
+Melody : 11
+1 fret, 2 string
+4 finger
+got 0 reward
+
+Melody : 11
+1 fret, 2 string
+4 finger
+got 0 reward
+
+Melody : 11
+1 fret, 2 string
+4 finger
+got 0 reward
+
+Melody : 11
+1 fret, 2 string
+4 finger
+got 0 reward
+
+Melody : 11
+1 fret, 2 string
+4 finger
+got 0 reward
+
+Melody : 11
+1 fret, 2 string
+4 finger
+got 0 reward
+
+Melody : 11
+1 fret, 2 string
+4 finger
+got 0 reward
+
+Melody : 4
+4 fret, 0 string
+4 finger
+got -1 reward
+
+Melody : 3
+3 fret, 0 string
+3 finger
+got 0 reward
+
+Melody : 1
+1 fret, 0 string
+1 finger
+got 0 reward
+
+Melody : 11
+1 fret, 2 string
+4 finger
+got 0 reward
+
+Melody : 11
+1 fret, 2 string
+4 finger
+got 0 reward
+
+Melody : 13
+3 fret, 2 string
+2 finger
+got -1 reward
+
+Melody : 15
+5 fret, 2 string
+4 finger
+got 0 reward
+
+Melody : 4
+4 fret, 0 string
+2 finger
+got 0 reward
+
+Melody : 3
+3 fret, 0 string
+1 finger
+got 0 reward
+
+Melody : 1
+1 fret, 0 string
+1 finger
+got -1 reward
+
+Melody : 6
+1 fret, 1 string
+2 finger
+got 0 reward
+
+Melody : 11
+1 fret, 2 string
+1 finger
+got 0 reward
+
+Melody : 11
+1 fret, 2 string
+1 finger
+got 0 reward
+
+Melody : 11
+1 fret, 2 string
+1 finger
+got 0 reward
+
+Melody : 13
+3 fret, 2 string
+3 finger
+got 0 reward
+
+Melody : 15
+0 fret, 3 string
+0 finger
+got -1 reward
+
+Melody : 7
+7 fret, 0 string
+4 finger
+got 0 reward
+
+Melody : 7
+7 fret, 0 string
+4 finger
+got 0 reward
+
+Melody : 7
+7 fret, 0 string
+4 finger
+got 0 reward
+
+Melody : 7
+7 fret, 0 string
+4 finger
+got 0 reward
+
+Melody : 7
+7 fret, 0 string
+4 finger
+got 0 reward
+
+Melody : 7
+7 fret, 0 string
+4 finger
+got 0 reward
+
+Melody : 7
+7 fret, 0 string
+4 finger
+got 0 reward
+
+Melody : 9
+4 fret, 1 string
+1 finger
+got 0 reward
+
+Melody : 9
+4 fret, 1 string
+1 finger
+got 0 reward
+
+Melody : 9
+4 fret, 1 string
+1 finger
+got 0 reward
+
+Melody : 9
+4 fret, 1 string
+1 finger
+got 0 reward
+
+Melody : 9
+4 fret, 1 string
+1 finger
+got 0 reward
+
+Melody : 9
+4 fret, 1 string
+1 finger
+got 0 reward
+
+Melody : 11
+6 fret, 1 string
+4 finger
+got 0 reward
+
+Melody : 11
+6 fret, 1 string
+4 finger
+got 0 reward
+
+Melody : 11
+6 fret, 1 string
+4 finger
+got 0 reward
+
+Melody : 11
+6 fret, 1 string
+4 finger
+got 0 reward
+
+Melody : 11
+6 fret, 1 string
+4 finger
+got 0 reward
+
+Melody : 11
+6 fret, 1 string
+4 finger
+got 0 reward
+
+Melody : 6
+6 fret, 0 string
+2 finger
+got 0 reward
+
+Melody : 11
+6 fret, 1 string
+4 finger
+got 0 reward
+
+Melody : 15
+5 fret, 2 string
+2 finger
+got 0 reward
+
+Melody : 16
+6 fret, 2 string
+3 finger
+got 0 reward
+
+Melody : 15
+5 fret, 2 string
+2 finger
+got 0 reward
+
+Melody : 11
+6 fret, 1 string
+3 finger
+got 0 reward
+
+Melody : 6
+6 fret, 0 string
+2 finger
+got 0 reward
+
+Melody : 7
+7 fret, 0 string
+4 finger
+got 0 reward
+
+Melody : 7
+7 fret, 0 string
+4 finger
+got 0 reward
+
+Melody : 7
+7 fret, 0 string
+4 finger
+got 0 reward
+
+Melody : 7
+7 fret, 0 string
+4 finger
+got 0 reward
+
+Melody : 7
+7 fret, 0 string
+4 finger
+got 0 reward
+
+Melody : 7
+7 fret, 0 string
+4 finger
+got 0 reward
+
+Melody : 7
+7 fret, 0 string
+4 finger
+got 0 reward
+
+Melody : 9
+4 fret, 1 string
+1 finger
+got 0 reward
+
+Melody : 9
+4 fret, 1 string
+1 finger
+got 0 reward
+
+Melody : 9
+4 fret, 1 string
+1 finger
+got 0 reward
+
+Melody : 9
+4 fret, 1 string
+1 finger
+got 0 reward
+
+Melody : 9
+4 fret, 1 string
+1 finger
+got 0 reward
+
+Melody : 9
+4 fret, 1 string
+1 finger
+got 0 reward
+
+Melody : 4
+4 fret, 0 string
+4 finger
+got 0 reward
+
+Melody : 4
+4 fret, 0 string
+4 finger
+got 0 reward
+
+Melody : 4
+4 fret, 0 string
+4 finger
+got 0 reward
+
+Melody : 4
+4 fret, 0 string
+4 finger
+got 0 reward
+
+Melody : 4
+4 fret, 0 string
+4 finger
+got 0 reward
+
+Melody : 4
+4 fret, 0 string
+4 finger
+got 0 reward
+
+Melody : 4
+4 fret, 0 string
+4 finger
+got 0 reward
+
+Melody : 6
+1 fret, 1 string
+1 finger
+got 0 reward
+
+Melody : 6
+1 fret, 1 string
+1 finger
+got 0 reward
+
+Melody : 6
+1 fret, 1 string
+1 finger
+got 0 reward
+
+Melody : 6
+1 fret, 1 string
+1 finger
+got 0 reward
+
+Melody : 6
+1 fret, 1 string
+1 finger
+got 0 reward
+
+Melody : 3
+3 fret, 0 string
+3 finger
+got 0 reward
+
+Melody : 3
+3 fret, 0 string
+3 finger
+got 0 reward
+
+Melody : 3
+3 fret, 0 string
+3 finger
+got 0 reward
+
+Melody : 3
+3 fret, 0 string
+3 finger
+got 0 reward
+
+Melody : 3
+3 fret, 0 string
+3 finger
+got 0 reward
+
+Melody : 3
+3 fret, 0 string
+3 finger
+got 0 reward
+
+Melody : 3
+3 fret, 0 string
+3 finger
+got 0 reward
+
+Melody : 3
+3 fret, 0 string
+3 finger
+got 0 reward
+
+Melody : 8
+3 fret, 1 string
+4 finger
+got 0 reward
+
+Melody : 8
+3 fret, 1 string
+4 finger
+got 0 reward
+
+Melody : 8
+3 fret, 1 string
+4 finger
+got 0 reward
+
+Melody : 8
+3 fret, 1 string
+4 finger
+got 0 reward
+
+Melody : 8
+3 fret, 1 string
+4 finger
+got 0 reward
+
+Melody : 8
+3 fret, 1 string
+4 finger
+got 0 reward
+
+Melody : 8
+3 fret, 1 string
+4 finger
+got 0 reward
+
+Melody : 8
+3 fret, 1 string
+4 finger
+got 0 reward
+
+Melody : 1
+1 fret, 0 string
+1 finger
+got 0 reward
+
+Melody : 1
+1 fret, 0 string
+1 finger
+got 0 reward
+
+Melody : 1
+1 fret, 0 string
+1 finger
+got 0 reward
+
+Melody : 1
+1 fret, 0 string
+1 finger
+got 0 reward
+
+Melody : 1
+1 fret, 0 string
+1 finger
+got 0 reward
+
+Melody : 1
+1 fret, 0 string
+1 finger
+got 0 reward
+
+Melody : 1
+1 fret, 0 string
+1 finger
+got 0 reward
+
+Melody : 1
+1 fret, 0 string
+1 finger
+got 0 reward
+
+Melody : 3
+3 fret, 0 string
+3 finger
+got 0 reward
+
+Melody : 3
+3 fret, 0 string
+3 finger
+got 0 reward
+
+Melody : 3
+3 fret, 0 string
+3 finger
+got 0 reward
+
+Melody : 3
+3 fret, 0 string
+3 finger
+got 0 reward
+
+Melody : 3
+3 fret, 0 string
+3 finger
+got 0 reward
+
+Melody : 3
+3 fret, 0 string
+3 finger
+got 0 reward
+
+Melody : 3
+3 fret, 0 string
+3 finger
+got 0 reward
+
+Melody : 3
+3 fret, 0 string
+3 finger
+got 0 reward
+
+Melody : 8
+3 fret, 1 string
+4 finger
+got 0 reward
+
+Melody : 8
+3 fret, 1 string
+4 finger
+got 0 reward
+
+Melody : 8
+3 fret, 1 string
+4 finger
+got 0 reward
+
+Melody : 8
+3 fret, 1 string
+4 finger
+got 0 reward
+
+Melody : 8
+3 fret, 1 string
+4 finger
+got 0 reward
+
+Melody : 8
+3 fret, 1 string
+4 finger
+got 0 reward
+
+Melody : 8
+3 fret, 1 string
+4 finger
+got 0 reward
+
+Melody : 8
+3 fret, 1 string
+4 finger
+got 0 reward
+
+Melody : 3
+3 fret, 0 string
+3 finger
+got 0 reward
+
+Melody : 3
+3 fret, 0 string
+3 finger
+got 0 reward
+
+Melody : 3
+3 fret, 0 string
+3 finger
+got 0 reward
+
+Melody : 3
+3 fret, 0 string
+3 finger
+got 0 reward
+
+Melody : 3
+3 fret, 0 string
+3 finger
+got 0 reward
+
+Melody : 3
+3 fret, 0 string
+3 finger
+got 0 reward
+
+Melody : 3
+3 fret, 0 string
+3 finger
+got 0 reward
+
+Melody : 3
+3 fret, 0 string
+3 finger
+got 0 reward
+
+Melody : 4
+4 fret, 0 string
+4 finger
+got 0 reward
+
+Melody : 4
+4 fret, 0 string
+4 finger
+got 0 reward
+
+Melody : 4
+4 fret, 0 string
+4 finger
+got 0 reward
+
+Melody : 4
+4 fret, 0 string
+4 finger
+got 0 reward
+
+Melody : 4
+4 fret, 0 string
+4 finger
+got 0 reward
+
+Melody : 4
+4 fret, 0 string
+4 finger
+got 0 reward
+
+Melody : 4
+4 fret, 0 string
+4 finger
+got 0 reward
+
+Melody : 4
+4 fret, 0 string
+4 finger
+got 0 reward
+
+Melody : 6
+1 fret, 1 string
+1 finger
+got 0 reward
+
+Melody : 6
+1 fret, 1 string
+1 finger
+got 0 reward
+
+Melody : 6
+1 fret, 1 string
+1 finger
+got 0 reward
+
+Melody : 6
+1 fret, 1 string
+1 finger
+got 0 reward
+
+Melody : 6
+1 fret, 1 string
+1 finger
+got 0 reward
+
+Melody : 6
+1 fret, 1 string
+1 finger
+got 0 reward
+
+Melody : 6
+1 fret, 1 string
+1 finger
+got 0 reward
+
+Melody : 3
+3 fret, 0 string
+3 finger
+got 0 reward
+
+Melody : 3
+3 fret, 0 string
+3 finger
+got 0 reward
+
+Melody : 3
+3 fret, 0 string
+3 finger
+got 0 reward
+
+Melody : 3
+3 fret, 0 string
+3 finger
+got 0 reward
+
+Melody : 3
+3 fret, 0 string
+3 finger
+got 0 reward
+
+Melody : 3
+3 fret, 0 string
+3 finger
+got 0 reward
+
+Melody : 3
+3 fret, 0 string
+3 finger
+got 0 reward
+
+Melody : 3
+3 fret, 0 string
+3 finger
+got 0 reward
+
+Melody : 8
+3 fret, 1 string
+4 finger
+got 0 reward
+
+Melody : 8
+3 fret, 1 string
+4 finger
+got 0 reward
+
+Melody : 8
+3 fret, 1 string
+4 finger
+got 0 reward
+
+Melody : 8
+3 fret, 1 string
+4 finger
+got 0 reward
+
+Melody : 8
+3 fret, 1 string
+4 finger
+got 0 reward
+
+Melody : 8
+3 fret, 1 string
+4 finger
+got 0 reward
+
+Melody : 8
+3 fret, 1 string
+4 finger
+got 0 reward
+
+Melody : 8
+3 fret, 1 string
+4 finger
+got 0 reward
+
+Melody : 13
+3 fret, 2 string
+2 finger
+got 0 reward
+
+Melody : 13
+3 fret, 2 string
+2 finger
+got 0 reward
+
+Melody : 13
+3 fret, 2 string
+2 finger
+got 0 reward
+
+Melody : 13
+3 fret, 2 string
+2 finger
+got 0 reward
+
+Melody : 13
+3 fret, 2 string
+2 finger
+got 0 reward
+
+Melody : 13
+3 fret, 2 string
+2 finger
+got 0 reward
+
+Melody : 13
+3 fret, 2 string
+2 finger
+got 0 reward
+
+Melody : 13
+3 fret, 2 string
+2 finger
+got 0 reward
+
+Melody : 15
+5 fret, 2 string
+4 finger
+got 0 reward
+
+Melody : 15
+5 fret, 2 string
+4 finger
+got 0 reward
+
+Melody : 15
+5 fret, 2 string
+4 finger
+got 0 reward
+
+Melody : 15
+5 fret, 2 string
+4 finger
+got 0 reward
+
+Melody : 15
+5 fret, 2 string
+4 finger
+got 0 reward
+
+Melody : 15
+5 fret, 2 string
+4 finger
+got 0 reward
+
+Melody : 15
+5 fret, 2 string
+4 finger
+got 0 reward
+
+Melody : 15
+5 fret, 2 string
+4 finger
+got 0 reward
+
+Melody : 8
+3 fret, 1 string
+1 finger
+got 0 reward
+
+Melody : 8
+3 fret, 1 string
+1 finger
+got 0 reward
+
+Melody : 8
+3 fret, 1 string
+1 finger
+got 0 reward
+
+Melody : 8
+3 fret, 1 string
+1 finger
+got 0 reward
+
+Melody : 8
+3 fret, 1 string
+1 finger
+got 0 reward
+
+Melody : 8
+3 fret, 1 string
+1 finger
+got 0 reward
+
+Melody : 8
+3 fret, 1 string
+1 finger
+got 0 reward
+
+Melody : 8
+3 fret, 1 string
+1 finger
+got 0 reward
+
+Melody : 6
+6 fret, 0 string
+4 finger
+got 0 reward
+
+Melody : 6
+6 fret, 0 string
+4 finger
+got 0 reward
+
+Melody : 6
+6 fret, 0 string
+4 finger
+got 0 reward
+
+Melody : 6
+6 fret, 0 string
+4 finger
+got 0 reward
+
+Melody : 6
+6 fret, 0 string
+4 finger
+got 0 reward
+
+Melody : 6
+6 fret, 0 string
+4 finger
+got 0 reward
+
+Melody : 6
+6 fret, 0 string
+4 finger
+got 0 reward
+
+Melody : 6
+6 fret, 0 string
+4 finger
+got 0 reward
+
+Melody : 4
+4 fret, 0 string
+2 finger
+got 0 reward
+
+Melody : 4
+4 fret, 0 string
+2 finger
+got 0 reward
+
+Melody : 4
+4 fret, 0 string
+2 finger
+got 0 reward
+
+Melody : 4
+4 fret, 0 string
+2 finger
+got 0 reward
+
+Melody : 4
+4 fret, 0 string
+2 finger
+got 0 reward
+
+Melody : 4
+4 fret, 0 string
+2 finger
+got 0 reward
+
+Melody : 4
+4 fret, 0 string
+2 finger
+got 0 reward
+
+Melody : 4
+4 fret, 0 string
+2 finger
+got 0 reward
+
+Melody : 3
+3 fret, 0 string
+1 finger
+got 0 reward
+
+Melody : 3
+3 fret, 0 string
+1 finger
+got 0 reward
+
+Melody : 3
+3 fret, 0 string
+1 finger
+got 0 reward
+
+Melody : 3
+3 fret, 0 string
+1 finger
+got 0 reward
+
+Melody : 3
+3 fret, 0 string
+1 finger
+got 0 reward
+
+Melody : 3
+3 fret, 0 string
+1 finger
+got 0 reward
+
+Melody : 3
+3 fret, 0 string
+1 finger
+got 0 reward
+
+Melody : 3
+3 fret, 0 string
+1 finger
+got 0 reward
+
+Melody : 1
+1 fret, 0 string
+1 finger
+got -1 reward
+
+Melody : 1
+1 fret, 0 string
+1 finger
+got 0 reward
+
+Melody : 1
+1 fret, 0 string
+1 finger
+got 0 reward
+
+Melody : 1
+1 fret, 0 string
+1 finger
+got 0 reward
+
+Melody : 1
+1 fret, 0 string
+1 finger
+got 0 reward
+
+Melody : 1
+1 fret, 0 string
+1 finger
+got 0 reward
+
+Melody : 1
+1 fret, 0 string
+1 finger
+got 0 reward
+
+Melody : 1
+1 fret, 0 string
+1 finger
+got 0 reward
+
+Melody : 6
+1 fret, 1 string
+2 finger
+got 0 reward
+
+Melody : 6
+1 fret, 1 string
+2 finger
+got 0 reward
+
+Melody : 6
+1 fret, 1 string
+2 finger
+got 0 reward
+
+Melody : 6
+1 fret, 1 string
+2 finger
+got 0 reward
+
+Melody : 6
+1 fret, 1 string
+2 finger
+got 0 reward
+
+Melody : 6
+1 fret, 1 string
+2 finger
+got 0 reward
+
+Melody : 6
+1 fret, 1 string
+2 finger
+got 0 reward
+
+Melody : 6
+1 fret, 1 string
+2 finger
+got 0 reward
+
+Melody : 4
+4 fret, 0 string
+4 finger
+got -1 reward
+
+Melody : 4
+4 fret, 0 string
+4 finger
+got 0 reward
+
+Melody : 6
+1 fret, 1 string
+1 finger
+got 0 reward
+
+Melody : 6
+1 fret, 1 string
+1 finger
+got 0 reward
+
+Melody : 8
+3 fret, 1 string
+4 finger
+got 0 reward
+
+Melody : 8
+3 fret, 1 string
+4 finger
+got 0 reward
+
+Melody : 8
+3 fret, 1 string
+4 finger
+got 0 reward
+
+Melody : 11
+1 fret, 2 string
+1 finger
+got 0 reward
+
+Melody : 11
+1 fret, 2 string
+1 finger
+got 0 reward
+
+Melody : 11
+1 fret, 2 string
+1 finger
+got 0 reward
+
+Melody : 4
+4 fret, 0 string
+4 finger
+got 0 reward
+
+Melody : 4
+4 fret, 0 string
+4 finger
+got 0 reward
+
+Melody : 6
+1 fret, 1 string
+1 finger
+got 0 reward
+
+Melody : 6
+1 fret, 1 string
+1 finger
+got 0 reward
+
+Melody : 11
+1 fret, 2 string
+4 finger
+got 0 reward
+
+Melody : 11
+1 fret, 2 string
+4 finger
+got 0 reward
+
+Melody : 11
+1 fret, 2 string
+4 finger
+got 0 reward
+
+Melody : 11
+1 fret, 2 string
+4 finger
+got 0 reward
+
+Melody : 11
+1 fret, 2 string
+4 finger
+got 0 reward
+
+Melody : 11
+1 fret, 2 string
+4 finger
+got 0 reward
+
+Melody : 11
+1 fret, 2 string
+4 finger
+got 0 reward
+
+Melody : 11
+1 fret, 2 string
+4 finger
+got 0 reward
+
+Melody : 4
+4 fret, 0 string
+4 finger
+got -1 reward
+
+Melody : 4
+4 fret, 0 string
+4 finger
+got 0 reward
+
+Melody : 6
+1 fret, 1 string
+1 finger
+got 0 reward
+
+Melody : 6
+1 fret, 1 string
+1 finger
+got 0 reward
+
+Melody : 8
+3 fret, 1 string
+4 finger
+got 0 reward
+
+Melody : 8
+3 fret, 1 string
+4 finger
+got 0 reward
+
+Melody : 8
+3 fret, 1 string
+4 finger
+got 0 reward
+
+Melody : 11
+1 fret, 2 string
+1 finger
+got 0 reward
+
+Melody : 11
+1 fret, 2 string
+1 finger
+got 0 reward
+
+Melody : 11
+1 fret, 2 string
+1 finger
+got 0 reward
+
+Melody : 4
+4 fret, 0 string
+4 finger
+got 0 reward
+
+Melody : 4
+4 fret, 0 string
+4 finger
+got 0 reward
+
+Melody : 6
+1 fret, 1 string
+1 finger
+got 0 reward
+
+Melody : 6
+1 fret, 1 string
+1 finger
+got 0 reward
+
+Melody : 11
+1 fret, 2 string
+4 finger
+got 0 reward
+
+Melody : 11
+1 fret, 2 string
+4 finger
+got 0 reward
+
+Melody : 11
+1 fret, 2 string
+4 finger
+got 0 reward
+
+Melody : 11
+1 fret, 2 string
+4 finger
+got 0 reward
+
+Melody : 11
+1 fret, 2 string
+4 finger
+got 0 reward
+
+Melody : 11
+1 fret, 2 string
+4 finger
+got 0 reward
+
+Melody : 11
+1 fret, 2 string
+4 finger
+got 0 reward
+
+Melody : 11
+1 fret, 2 string
+4 finger
+got 0 reward
+
+Melody : 4
+4 fret, 0 string
+4 finger
+got -1 reward
+
+Melody : 3
+3 fret, 0 string
+3 finger
+got 0 reward
+
+Melody : 1
+1 fret, 0 string
+1 finger
+got 0 reward
+
+Melody : 11
+1 fret, 2 string
+4 finger
+got 0 reward
+
+Melody : 11
+1 fret, 2 string
+4 finger
+got 0 reward
+
+Melody : 13
+3 fret, 2 string
+2 finger
+got -1 reward
+
+Melody : 15
+5 fret, 2 string
+4 finger
+got 0 reward
+
+Melody : 4
+4 fret, 0 string
+2 finger
+got 0 reward
+
+Melody : 3
+3 fret, 0 string
+1 finger
+got 0 reward
+
+Melody : 1
+1 fret, 0 string
+1 finger
+got -1 reward
+
+Melody : 6
+1 fret, 1 string
+2 finger
+got 0 reward
+
+Melody : 11
+1 fret, 2 string
+1 finger
+got 0 reward
+
+Melody : 11
+1 fret, 2 string
+1 finger
+got 0 reward
+
+Melody : 11
+1 fret, 2 string
+1 finger
+got 0 reward
+
+Melody : 13
+3 fret, 2 string
+3 finger
+got 0 reward
+
+Melody : 15
+0 fret, 3 string
+0 finger
+got -1 reward
+
+Melody : 7
+7 fret, 0 string
+4 finger
+got 0 reward
+
+Melody : 7
+7 fret, 0 string
+4 finger
+got 0 reward
+
+Melody : 7
+7 fret, 0 string
+4 finger
+got 0 reward
+
+Melody : 7
+7 fret, 0 string
+4 finger
+got 0 reward
+
+Melody : 7
+7 fret, 0 string
+4 finger
+got 0 reward
+
+Melody : 7
+7 fret, 0 string
+4 finger
+got 0 reward
+
+Melody : 7
+7 fret, 0 string
+4 finger
+got 0 reward
+
+Melody : 9
+4 fret, 1 string
+1 finger
+got 0 reward
+
+Melody : 9
+4 fret, 1 string
+1 finger
+got 0 reward
+
+Melody : 9
+4 fret, 1 string
+1 finger
+got 0 reward
+
+Melody : 9
+4 fret, 1 string
+1 finger
+got 0 reward
+
+Melody : 9
+4 fret, 1 string
+1 finger
+got 0 reward
+
+Melody : 9
+4 fret, 1 string
+1 finger
+got 0 reward
+
+Melody : 11
+6 fret, 1 string
+4 finger
+got 0 reward
+
+Melody : 11
+6 fret, 1 string
+4 finger
+got 0 reward
+
+Melody : 11
+6 fret, 1 string
+4 finger
+got 0 reward
+
+Melody : 11
+6 fret, 1 string
+4 finger
+got 0 reward
+
+Melody : 11
+6 fret, 1 string
+4 finger
+got 0 reward
+
+Melody : 11
+6 fret, 1 string
+4 finger
+got 0 reward
+
+Melody : 6
+6 fret, 0 string
+2 finger
+got 0 reward
+
+Melody : 11
+6 fret, 1 string
+4 finger
+got 0 reward
+
+Melody : 15
+5 fret, 2 string
+2 finger
+got 0 reward
+
+Melody : 16
+6 fret, 2 string
+3 finger
+got 0 reward
+
+Melody : 15
+5 fret, 2 string
+2 finger
+got 0 reward
+
+Melody : 11
+6 fret, 1 string
+3 finger
+got 0 reward
+
+Melody : 6
+6 fret, 0 string
+2 finger
+got 0 reward
+
+Melody : 7
+7 fret, 0 string
+4 finger
+got 0 reward
+
+Melody : 7
+7 fret, 0 string
+4 finger
+got 0 reward
+
+Melody : 7
+7 fret, 0 string
+4 finger
+got 0 reward
+
+Melody : 7
+7 fret, 0 string
+4 finger
+got 0 reward
+
+Melody : 7
+7 fret, 0 string
+4 finger
+got 0 reward
+
+Melody : 7
+7 fret, 0 string
+4 finger
+got 0 reward
+
+Melody : 7
+7 fret, 0 string
+4 finger
+got 0 reward
+
+Melody : 9
+4 fret, 1 string
+1 finger
+got 0 reward
+
+Melody : 9
+4 fret, 1 string
+1 finger
+got 0 reward
+
+Melody : 9
+4 fret, 1 string
+1 finger
+got 0 reward
+
+Melody : 9
+4 fret, 1 string
+1 finger
+got 0 reward
+
+Melody : 9
+4 fret, 1 string
+1 finger
+got 0 reward
+
+Melody : 9
+4 fret, 1 string
+1 finger
+got 0 reward
+
+Melody : 4
+4 fret, 0 string
+4 finger
+got 0 reward
+
+Melody : 4
+4 fret, 0 string
+4 finger
+got 0 reward
+
+Melody : 4
+4 fret, 0 string
+4 finger
+got 0 reward
+
+Melody : 4
+4 fret, 0 string
+4 finger
+got 0 reward
+
+Melody : 4
+4 fret, 0 string
+4 finger
+got 0 reward
+
+Melody : 4
+4 fret, 0 string
+4 finger
+got 0 reward
+
+Melody : 4
+4 fret, 0 string
+4 finger
+got 0 reward
+
+Melody : 6
+1 fret, 1 string
+1 finger
+got 0 reward
+
+Melody : 6
+1 fret, 1 string
+1 finger
+got 0 reward
+
+Melody : 6
+1 fret, 1 string
+1 finger
+got 0 reward
+
+Melody : 6
+1 fret, 1 string
+1 finger
+got 0 reward
+
+Melody : 6
+1 fret, 1 string
+1 finger
+got 0 reward
+
+Melody : 3
+3 fret, 0 string
+3 finger
+got 0 reward
+
+Melody : 3
+3 fret, 0 string
+3 finger
+got 0 reward
+
+Melody : 3
+3 fret, 0 string
+3 finger
+got 0 reward
+
+Melody : 3
+3 fret, 0 string
+3 finger
+got 0 reward
+
+Melody : 3
+3 fret, 0 string
+3 finger
+got 0 reward
+
+Melody : 3
+3 fret, 0 string
+3 finger
+got 0 reward
+
+Melody : 3
+3 fret, 0 string
+3 finger
+got 0 reward
+
+Melody : 3
+3 fret, 0 string
+3 finger
+got 0 reward
+
+Melody : 8
+3 fret, 1 string
+4 finger
+got 0 reward
+
+Melody : 8
+3 fret, 1 string
+4 finger
+got 0 reward
+
+Melody : 8
+3 fret, 1 string
+4 finger
+got 0 reward
+
+Melody : 8
+3 fret, 1 string
+4 finger
+got 0 reward
+
+Melody : 8
+3 fret, 1 string
+4 finger
+got 0 reward
+
+Melody : 8
+3 fret, 1 string
+4 finger
+got 0 reward
+
+Melody : 8
+3 fret, 1 string
+4 finger
+got 0 reward
+
+Melody : 8
+3 fret, 1 string
+4 finger
+got 0 reward
+
+Melody : 1
+1 fret, 0 string
+1 finger
+got 0 reward
+
+Melody : 1
+1 fret, 0 string
+1 finger
+got 0 reward
+
+Melody : 1
+1 fret, 0 string
+1 finger
+got 0 reward
+
+Melody : 1
+1 fret, 0 string
+1 finger
+got 0 reward
+
+Melody : 1
+1 fret, 0 string
+1 finger
+got 0 reward
+
+Melody : 1
+1 fret, 0 string
+1 finger
+got 0 reward
+
+Melody : 1
+1 fret, 0 string
+1 finger
+got 0 reward
+
+Melody : 1
+1 fret, 0 string
+1 finger
+got 0 reward
+
+Melody : 3
+3 fret, 0 string
+3 finger
+got 0 reward
+
+Melody : 3
+3 fret, 0 string
+3 finger
+got 0 reward
+
+Melody : 3
+3 fret, 0 string
+3 finger
+got 0 reward
+
+Melody : 3
+3 fret, 0 string
+3 finger
+got 0 reward
+
+Melody : 3
+3 fret, 0 string
+3 finger
+got 0 reward
+
+Melody : 3
+3 fret, 0 string
+3 finger
+got 0 reward
+
+Melody : 3
+3 fret, 0 string
+3 finger
+got 0 reward
+
+Melody : 3
+3 fret, 0 string
+3 finger
+got 0 reward
+
+Melody : 8
+3 fret, 1 string
+4 finger
+got 0 reward
+
+Melody : 8
+3 fret, 1 string
+4 finger
+got 0 reward
+
+Melody : 8
+3 fret, 1 string
+4 finger
+got 0 reward
+
+Melody : 8
+3 fret, 1 string
+4 finger
+got 0 reward
+
+Melody : 8
+3 fret, 1 string
+4 finger
+got 0 reward
+
+Melody : 8
+3 fret, 1 string
+4 finger
+got 0 reward
+
+Melody : 8
+3 fret, 1 string
+4 finger
+got 0 reward
+
+Melody : 8
+3 fret, 1 string
+4 finger
+got 0 reward
+
+Melody : 3
+3 fret, 0 string
+3 finger
+got 0 reward
+
+Melody : 3
+3 fret, 0 string
+3 finger
+got 0 reward
+
+Melody : 3
+3 fret, 0 string
+3 finger
+got 0 reward
+
+Melody : 3
+3 fret, 0 string
+3 finger
+got 0 reward
+
+Melody : 3
+3 fret, 0 string
+3 finger
+got 0 reward
+
+Melody : 3
+3 fret, 0 string
+3 finger
+got 0 reward
+
+Melody : 3
+3 fret, 0 string
+3 finger
+got 0 reward
+
+Melody : 3
+3 fret, 0 string
+3 finger
+got 0 reward
+
+Melody : 4
+4 fret, 0 string
+4 finger
+got 0 reward
+
+Melody : 4
+4 fret, 0 string
+4 finger
+got 0 reward
+
+Melody : 4
+4 fret, 0 string
+4 finger
+got 0 reward
+
+Melody : 4
+4 fret, 0 string
+4 finger
+got 0 reward
+
+Melody : 4
+4 fret, 0 string
+4 finger
+got 0 reward
+
+Melody : 4
+4 fret, 0 string
+4 finger
+got 0 reward
+
+Melody : 4
+4 fret, 0 string
+4 finger
+got 0 reward
+
+Melody : 4
+4 fret, 0 string
+4 finger
+got 0 reward
+
+Melody : 6
+1 fret, 1 string
+1 finger
+got 0 reward
+
+Melody : 6
+1 fret, 1 string
+1 finger
+got 0 reward
+
+Melody : 6
+1 fret, 1 string
+1 finger
+got 0 reward
+
+Melody : 6
+1 fret, 1 string
+1 finger
+got 0 reward
+
+Melody : 6
+1 fret, 1 string
+1 finger
+got 0 reward
+
+Melody : 6
+1 fret, 1 string
+1 finger
+got 0 reward
+
+Melody : 6
+1 fret, 1 string
+1 finger
+got 0 reward
+
+Melody : 3
+3 fret, 0 string
+3 finger
+got 0 reward
+
+Melody : 3
+3 fret, 0 string
+3 finger
+got 0 reward
+
+Melody : 3
+3 fret, 0 string
+3 finger
+got 0 reward
+
+Melody : 3
+3 fret, 0 string
+3 finger
+got 0 reward
+
+Melody : 3
+3 fret, 0 string
+3 finger
+got 0 reward
+
+Melody : 3
+3 fret, 0 string
+3 finger
+got 0 reward
+
+Melody : 3
+3 fret, 0 string
+3 finger
+got 0 reward
+
+Melody : 3
+3 fret, 0 string
+3 finger
+got 0 reward
+
+Melody : 8
+3 fret, 1 string
+4 finger
+got 0 reward
+
+Melody : 8
+3 fret, 1 string
+4 finger
+got 0 reward
+
+Melody : 8
+3 fret, 1 string
+4 finger
+got 0 reward
+
+Melody : 8
+3 fret, 1 string
+4 finger
+got 0 reward
+
+Melody : 8
+3 fret, 1 string
+4 finger
+got 0 reward
+
+Melody : 8
+3 fret, 1 string
+4 finger
+got 0 reward
+
+Melody : 8
+3 fret, 1 string
+4 finger
+got 0 reward
+
+Melody : 8
+3 fret, 1 string
+4 finger
+got 0 reward
+
+Melody : 13
+3 fret, 2 string
+2 finger
+got 0 reward
+
+Melody : 13
+3 fret, 2 string
+2 finger
+got 0 reward
+
+Melody : 13
+3 fret, 2 string
+2 finger
+got 0 reward
+
+Melody : 13
+3 fret, 2 string
+2 finger
+got 0 reward
+
+Melody : 13
+3 fret, 2 string
+2 finger
+got 0 reward
+
+Melody : 13
+3 fret, 2 string
+2 finger
+got 0 reward
+
+Melody : 13
+3 fret, 2 string
+2 finger
+got 0 reward
+
+Melody : 13
+3 fret, 2 string
+2 finger
+got 0 reward
+
+Melody : 15
+5 fret, 2 string
+4 finger
+got 0 reward
+
+Melody : 15
+5 fret, 2 string
+4 finger
+got 0 reward
+
+Melody : 15
+5 fret, 2 string
+4 finger
+got 0 reward
+
+Melody : 15
+5 fret, 2 string
+4 finger
+got 0 reward
+
+Melody : 15
+5 fret, 2 string
+4 finger
+got 0 reward
+
+Melody : 15
+5 fret, 2 string
+4 finger
+got 0 reward
+
+Melody : 15
+5 fret, 2 string
+4 finger
+got 0 reward
+
+Melody : 15
+5 fret, 2 string
+4 finger
+got 0 reward
+
+Melody : 8
+3 fret, 1 string
+1 finger
+got 0 reward
+
+Melody : 8
+3 fret, 1 string
+1 finger
+got 0 reward
+
+Melody : 8
+3 fret, 1 string
+1 finger
+got 0 reward
+
+Melody : 8
+3 fret, 1 string
+1 finger
+got 0 reward
+
+Melody : 8
+3 fret, 1 string
+1 finger
+got 0 reward
+
+Melody : 8
+3 fret, 1 string
+1 finger
+got 0 reward
+
+Melody : 8
+3 fret, 1 string
+1 finger
+got 0 reward
+
+Melody : 8
+3 fret, 1 string
+1 finger
+got 0 reward
+
+Melody : 6
+6 fret, 0 string
+4 finger
+got 0 reward
+
+Melody : 6
+6 fret, 0 string
+4 finger
+got 0 reward
+
+Melody : 6
+6 fret, 0 string
+4 finger
+got 0 reward
+
+Melody : 6
+6 fret, 0 string
+4 finger
+got 0 reward
+
+Melody : 6
+6 fret, 0 string
+4 finger
+got 0 reward
+
+Melody : 6
+6 fret, 0 string
+4 finger
+got 0 reward
+
+Melody : 6
+6 fret, 0 string
+4 finger
+got 0 reward
+
+Melody : 6
+6 fret, 0 string
+4 finger
+got 0 reward
+
+Melody : 4
+4 fret, 0 string
+2 finger
+got 0 reward
+
+Melody : 4
+4 fret, 0 string
+2 finger
+got 0 reward
+
+Melody : 4
+4 fret, 0 string
+2 finger
+got 0 reward
+
+Melody : 4
+4 fret, 0 string
+2 finger
+got 0 reward
+
+Melody : 4
+4 fret, 0 string
+2 finger
+got 0 reward
+
+Melody : 4
+4 fret, 0 string
+2 finger
+got 0 reward
+
+Melody : 4
+4 fret, 0 string
+2 finger
+got 0 reward
+
+Melody : 4
+4 fret, 0 string
+2 finger
+got 0 reward
+
+Melody : 3
+3 fret, 0 string
+1 finger
+got 0 reward
+
+Melody : 3
+3 fret, 0 string
+1 finger
+got 0 reward
+
+Melody : 3
+3 fret, 0 string
+1 finger
+got 0 reward
+
+Melody : 3
+3 fret, 0 string
+1 finger
+got 0 reward
+
+Melody : 3
+3 fret, 0 string
+1 finger
+got 0 reward
+
+Melody : 3
+3 fret, 0 string
+1 finger
+got 0 reward
+
+Melody : 3
+3 fret, 0 string
+1 finger
+got 0 reward
+
+Melody : 3
+3 fret, 0 string
+1 finger
+got 0 reward
+
+Melody : 1
+1 fret, 0 string
+1 finger
+got -1 reward
+
+Melody : 1
+1 fret, 0 string
+1 finger
+got 0 reward
+
+Melody : 1
+1 fret, 0 string
+1 finger
+got 0 reward
+
+Melody : 1
+1 fret, 0 string
+1 finger
+got 0 reward
+
+Melody : 1
+1 fret, 0 string
+1 finger
+got 0 reward
+
+Melody : 1
+1 fret, 0 string
+1 finger
+got 0 reward
+
+Melody : 1
+1 fret, 0 string
+1 finger
+got 0 reward
+
+Melody : 1
+1 fret, 0 string
+1 finger
+got 0 reward
+
+Melody : 6
+1 fret, 1 string
+2 finger
+got 0 reward
+
+Melody : 6
+1 fret, 1 string
+2 finger
+got 0 reward
+
+Melody : 6
+1 fret, 1 string
+2 finger
+got 0 reward
+
+Melody : 6
+1 fret, 1 string
+2 finger
+got 0 reward
+
+Melody : 6
+1 fret, 1 string
+2 finger
+got 0 reward
+
+Melody : 6
+1 fret, 1 string
+2 finger
+got 0 reward
+
+Melody : 6
+1 fret, 1 string
+2 finger
+got 0 reward
+
+Melody : 6
+1 fret, 1 string
+2 finger
+got 0 reward
+
+Melody : 3
+3 fret, 0 string
+4 finger
+got 0 reward
+
+Melody : 3
+3 fret, 0 string
+4 finger
+got 0 reward
+
+Melody : 3
+3 fret, 0 string
+4 finger
+got 0 reward
+
+Melody : 3
+3 fret, 0 string
+4 finger
+got 0 reward
+
+Melody : 3
+3 fret, 0 string
+4 finger
+got 0 reward
+
+Melody : 3
+3 fret, 0 string
+4 finger
+got 0 reward
+
+Melody : 3
+3 fret, 0 string
+4 finger
+got 0 reward
+
+Melody : 3
+3 fret, 0 string
+4 finger
+got 0 reward
+
+Melody : 8
+3 fret, 1 string
+3 finger
+got 0 reward
+
+Melody : 8
+3 fret, 1 string
+3 finger
+got 0 reward
+
+Melody : 8
+3 fret, 1 string
+3 finger
+got 0 reward
+
+Melody : 8
+3 fret, 1 string
+3 finger
+got 0 reward
+
+Melody : 8
+3 fret, 1 string
+3 finger
+got 0 reward
+
+Melody : 8
+3 fret, 1 string
+3 finger
+got 0 reward
+
+Melody : 8
+3 fret, 1 string
+3 finger
+got 0 reward
+
+Melody : 8
+3 fret, 1 string
+3 finger
+got 0 reward
+
+Melody : 1
+1 fret, 0 string
+1 finger
+got 0 reward
+
+Melody : 1
+1 fret, 0 string
+1 finger
+got 0 reward
+
+Melody : 1
+1 fret, 0 string
+1 finger
+got 0 reward
+
+Melody : 1
+1 fret, 0 string
+1 finger
+got 0 reward
+
+Melody : 1
+1 fret, 0 string
+1 finger
+got 0 reward
+
+Melody : 1
+1 fret, 0 string
+1 finger
+got 0 reward
+
+Melody : 1
+1 fret, 0 string
+1 finger
+got 0 reward
+
+Melody : 1
+1 fret, 0 string
+1 finger
+got 0 reward
+
+Melody : 3
+3 fret, 0 string
+3 finger
+got 0 reward
+
+Melody : 3
+3 fret, 0 string
+3 finger
+got 0 reward
+
+Melody : 3
+3 fret, 0 string
+3 finger
+got 0 reward
+
+Melody : 3
+3 fret, 0 string
+3 finger
+got 0 reward
+
+Melody : 3
+3 fret, 0 string
+3 finger
+got 0 reward
+
+Melody : 3
+3 fret, 0 string
+3 finger
+got 0 reward
+
+Melody : 3
+3 fret, 0 string
+3 finger
+got 0 reward
+
+Melody : 3
+3 fret, 0 string
+3 finger
+got 0 reward
+
+Melody : 8
+3 fret, 1 string
+4 finger
+got 0 reward
+
+Melody : 8
+3 fret, 1 string
+4 finger
+got 0 reward
+
+Melody : 8
+3 fret, 1 string
+4 finger
+got 0 reward
+
+Melody : 8
+3 fret, 1 string
+4 finger
+got 0 reward
+
+Melody : 8
+3 fret, 1 string
+4 finger
+got 0 reward
+
+Melody : 8
+3 fret, 1 string
+4 finger
+got 0 reward
+
+Melody : 8
+3 fret, 1 string
+4 finger
+got 0 reward
+
+Melody : 8
+3 fret, 1 string
+4 finger
+got 0 reward
+
+Melody : 3
+3 fret, 0 string
+3 finger
+got 0 reward
+
+Melody : 3
+3 fret, 0 string
+3 finger
+got 0 reward
+
+Melody : 3
+3 fret, 0 string
+3 finger
+got 0 reward
+
+Melody : 3
+3 fret, 0 string
+3 finger
+got 0 reward
+
+Melody : 3
+3 fret, 0 string
+3 finger
+got 0 reward
+
+Melody : 3
+3 fret, 0 string
+3 finger
+got 0 reward
+
+Melody : 3
+3 fret, 0 string
+3 finger
+got 0 reward
+
+Melody : 3
+3 fret, 0 string
+3 finger
+got 0 reward
+
+Melody : 4
+4 fret, 0 string
+4 finger
+got 0 reward
+
+Melody : 4
+4 fret, 0 string
+4 finger
+got 0 reward
+
+Melody : 4
+4 fret, 0 string
+4 finger
+got 0 reward
+
+Melody : 4
+4 fret, 0 string
+4 finger
+got 0 reward
+
+Melody : 4
+4 fret, 0 string
+4 finger
+got 0 reward
+
+Melody : 4
+4 fret, 0 string
+4 finger
+got 0 reward
+
+Melody : 4
+4 fret, 0 string
+4 finger
+got 0 reward
+
+Melody : 4
+4 fret, 0 string
+4 finger
+got 0 reward
+
+Melody : 6
+1 fret, 1 string
+1 finger
+got 0 reward
+
+Melody : 6
+1 fret, 1 string
+1 finger
+got 0 reward
+
+Melody : 6
+1 fret, 1 string
+1 finger
+got 0 reward
+
+Melody : 6
+1 fret, 1 string
+1 finger
+got 0 reward
+
+Melody : 6
+1 fret, 1 string
+1 finger
+got 0 reward
+
+Melody : 6
+1 fret, 1 string
+1 finger
+got 0 reward
+
+Melody : 6
+1 fret, 1 string
+1 finger
+got 0 reward
+
+Melody : 3
+3 fret, 0 string
+3 finger
+got 0 reward
+
+Melody : 3
+3 fret, 0 string
+3 finger
+got 0 reward
+
+Melody : 3
+3 fret, 0 string
+3 finger
+got 0 reward
+
+Melody : 3
+3 fret, 0 string
+3 finger
+got 0 reward
+
+Melody : 3
+3 fret, 0 string
+3 finger
+got 0 reward
+
+Melody : 3
+3 fret, 0 string
+3 finger
+got 0 reward
+
+Melody : 3
+3 fret, 0 string
+3 finger
+got 0 reward
+
+Melody : 3
+3 fret, 0 string
+3 finger
+got 0 reward
+
+Melody : 8
+3 fret, 1 string
+4 finger
+got 0 reward
+
+Melody : 8
+3 fret, 1 string
+4 finger
+got 0 reward
+
+Melody : 8
+3 fret, 1 string
+4 finger
+got 0 reward
+
+Melody : 8
+3 fret, 1 string
+4 finger
+got 0 reward
+
+Melody : 8
+3 fret, 1 string
+4 finger
+got 0 reward
+
+Melody : 8
+3 fret, 1 string
+4 finger
+got 0 reward
+
+Melody : 8
+3 fret, 1 string
+4 finger
+got 0 reward
+
+Melody : 8
+3 fret, 1 string
+4 finger
+got 0 reward
+
+Melody : 13
+3 fret, 2 string
+2 finger
+got 0 reward
+
+Melody : 13
+3 fret, 2 string
+2 finger
+got 0 reward
+
+Melody : 13
+3 fret, 2 string
+2 finger
+got 0 reward
+
+Melody : 13
+3 fret, 2 string
+2 finger
+got 0 reward
+
+Melody : 13
+3 fret, 2 string
+2 finger
+got 0 reward
+
+Melody : 13
+3 fret, 2 string
+2 finger
+got 0 reward
+
+Melody : 13
+3 fret, 2 string
+2 finger
+got 0 reward
+
+Melody : 13
+3 fret, 2 string
+2 finger
+got 0 reward
+
+Melody : 15
+5 fret, 2 string
+4 finger
+got 0 reward
+
+Melody : 15
+5 fret, 2 string
+4 finger
+got 0 reward
+
+Melody : 15
+5 fret, 2 string
+4 finger
+got 0 reward
+
+Melody : 15
+5 fret, 2 string
+4 finger
+got 0 reward
+
+Melody : 15
+5 fret, 2 string
+4 finger
+got 0 reward
+
+Melody : 15
+5 fret, 2 string
+4 finger
+got 0 reward
+
+Melody : 15
+5 fret, 2 string
+4 finger
+got 0 reward
+
+Melody : 15
+5 fret, 2 string
+4 finger
+got 0 reward
+
+Melody : 8
+3 fret, 1 string
+1 finger
+got 0 reward
+
+Melody : 8
+3 fret, 1 string
+1 finger
+got 0 reward
+
+Melody : 8
+3 fret, 1 string
+1 finger
+got 0 reward
+
+Melody : 8
+3 fret, 1 string
+1 finger
+got 0 reward
+
+Melody : 8
+3 fret, 1 string
+1 finger
+got 0 reward
+
+Melody : 8
+3 fret, 1 string
+1 finger
+got 0 reward
+
+Melody : 8
+3 fret, 1 string
+1 finger
+got 0 reward
+
+Melody : 8
+3 fret, 1 string
+1 finger
+got 0 reward
+
+Melody : 6
+6 fret, 0 string
+4 finger
+got 0 reward
+
+Melody : 6
+6 fret, 0 string
+4 finger
+got 0 reward
+
+Melody : 6
+6 fret, 0 string
+4 finger
+got 0 reward
+
+Melody : 6
+6 fret, 0 string
+4 finger
+got 0 reward
+
+Melody : 6
+6 fret, 0 string
+4 finger
+got 0 reward
+
+Melody : 6
+6 fret, 0 string
+4 finger
+got 0 reward
+
+Melody : 6
+6 fret, 0 string
+4 finger
+got 0 reward
+
+Melody : 6
+6 fret, 0 string
+4 finger
+got 0 reward
+
+Melody : 4
+4 fret, 0 string
+2 finger
+got 0 reward
+
+Melody : 4
+4 fret, 0 string
+2 finger
+got 0 reward
+
+Melody : 4
+4 fret, 0 string
+2 finger
+got 0 reward
+
+Melody : 4
+4 fret, 0 string
+2 finger
+got 0 reward
+
+Melody : 4
+4 fret, 0 string
+2 finger
+got 0 reward
+
+Melody : 4
+4 fret, 0 string
+2 finger
+got 0 reward
+
+Melody : 4
+4 fret, 0 string
+2 finger
+got 0 reward
+
+Melody : 4
+4 fret, 0 string
+2 finger
+got 0 reward
+
+Melody : 3
+3 fret, 0 string
+1 finger
+got 0 reward
+
+Melody : 3
+3 fret, 0 string
+1 finger
+got 0 reward
+
+Melody : 3
+3 fret, 0 string
+1 finger
+got 0 reward
+
+Melody : 3
+3 fret, 0 string
+1 finger
+got 0 reward
+
+Melody : 3
+3 fret, 0 string
+1 finger
+got 0 reward
+
+Melody : 3
+3 fret, 0 string
+1 finger
+got 0 reward
+
+Melody : 3
+3 fret, 0 string
+1 finger
+got 0 reward
+
+Melody : 3
+3 fret, 0 string
+1 finger
+got 0 reward
+
+Melody : 1
+1 fret, 0 string
+1 finger
+got -1 reward
+
+Melody : 1
+1 fret, 0 string
+1 finger
+got 0 reward
+
+Melody : 1
+1 fret, 0 string
+1 finger
+got 0 reward
+
+Melody : 1
+1 fret, 0 string
+1 finger
+got 0 reward
+
+Melody : 1
+1 fret, 0 string
+1 finger
+got 0 reward
+
+Melody : 1
+1 fret, 0 string
+1 finger
+got 0 reward
+
+Melody : 1
+1 fret, 0 string
+1 finger
+got 0 reward
+
+Melody : 1
+1 fret, 0 string
+1 finger
+got 0 reward
+
+Melody : 6
+1 fret, 1 string
+2 finger
+got 0 reward
+
+Melody : 6
+1 fret, 1 string
+2 finger
+got 0 reward
+
+Melody : 6
+1 fret, 1 string
+2 finger
+got 0 reward
+
+Melody : 6
+1 fret, 1 string
+2 finger
+got 0 reward
+
+Melody : 6
+1 fret, 1 string
+2 finger
+got 0 reward
+
+Melody : 6
+1 fret, 1 string
+2 finger
+got 0 reward
+
